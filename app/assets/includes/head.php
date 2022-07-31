@@ -1,6 +1,11 @@
 <?php
-// define('BASEURL', 'http://localhost/eyelasercenter/app/')
-define('BASEURL', 'https://eyelaser.maceioti.com.br/app/')
+$mode = 'development';
+// $mode = 'production';
+if($mode === 'development'){
+    define('BASEURL', 'http://localhost/eyelasercenter/app/');
+} elseif($mode === 'production') {
+    define('BASEURL', 'https://eyelaser.maceioti.com.br/app/');
+}
 ?>
 
 <!DOCTYPE html>
