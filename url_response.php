@@ -1,7 +1,7 @@
 <?php
 
 if(!defined('PROJECT_DIR'))
-    define('PROJECT_DIR', 'eyelasercenter');
+    define('PROJECT_DIR', 'eyelaser');
 
 if(!defined('APP_DIR'))
     define('APP_DIR', 'app');

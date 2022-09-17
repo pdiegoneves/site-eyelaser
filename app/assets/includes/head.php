@@ -2,12 +2,11 @@
 $mode = 'development';
 // $mode = 'production';
 if($mode === 'development'){
-    define('BASEURL', 'http://localhost/eyelasercenter/app/');
+    define('BASEURL', 'http://localhost/eyelaser/app/');
 } elseif($mode === 'production') {
     define('BASEURL', 'https://eyelaser.maceioti.com.br/app/');
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,3 +16,4 @@ if($mode === 'development'){
     <title>Eye Laser Center</title>
     <link rel="stylesheet" href="<?=BASEURL?>assets/css/styles.css">
 </head>
+<body>
