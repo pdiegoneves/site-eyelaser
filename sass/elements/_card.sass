@@ -1,0 +1,39 @@
+@import '../root/_variaveis'
+.cards
+    display: flex
+    flex-direction: column
+    flex: 1
+    justify-content: flex-start
+    align-items: center
+    color: #fff
+    font-family: 'Maven Pro', sans-serif
+
+    .card
+        position: relative
+        height: 60vh
+        text-align: center
+        padding: 1em
+        .avatar
+            border-radius: 50%
+            width: 33%
+            margin: 1em
+        .backgroundImage
+            position: absolute
+            // opacity: 0.2
+            top: 0
+            left: 0
+            width: 100vw
+            object-fit: cover
+            z-index: -1
+        h2
+            text-transform: uppercase
+            margin-bottom: 1em
+        p
+            font-size: 1.1em
+            font-weight: 500
+        &#cirurgia-refrativa
+            background-color: #0AC2BEca
+        &#ceratocone
+            background-color: #00858Fca
+        &#olho-seco
+            background-color: #1B5E83ca
