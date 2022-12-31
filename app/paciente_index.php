@@ -1,5 +1,5 @@
 <?php
-    require_once('assets/includes/head.php')
+    require_once('src/includes/head.php')
 ?>
 <header class="paciente_topo">
     <picture>
