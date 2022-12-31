@@ -1,6 +1,12 @@
 @import '../00-CORE/_variaveis'
 
 .main
-    background: $cor-escura
     overflow: hidden
     margin-bottom: 10px
+
+@media (min-width: 769px) 
+    .main
+        display: flex
+        max-width: 1280px
+        margin: 0 auto
+        

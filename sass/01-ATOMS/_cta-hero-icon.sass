@@ -1,5 +1,15 @@
 .cta-hero .icon
     float: left
-    transform: rotate(90deg)
     transform-origin: center
     width: 40px
+
+@media (max-width: 768px)
+    .cta-hero .icon.only_mobile
+        transform: rotate(90deg)
+
+
+
+@media (min-width: 769px)
+    .cta-hero .icon.only_desktop
+        float: none
+        transform: rotate(90deg)

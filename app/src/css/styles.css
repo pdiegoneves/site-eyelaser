@@ -28,6 +28,11 @@ html {
     display: none !important;
   }
 }
+@media (max-width: 769px) {
+  .only_desktop {
+    display: none !important;
+  }
+}
 .perfil-name {
   position: absolute;
   background-color: #1b5e83;
@@ -38,6 +43,12 @@ html {
   padding: 3px 7px;
 }
 
+@media (min-width: 769px) {
+  .perfil-name {
+    font-size: 2em;
+    padding: 10px 20px;
+  }
+}
 .perfil-card .icon {
   position: absolute;
   transform: rotate(-40deg);
@@ -57,20 +68,31 @@ html {
 
 .cta-hero .icon {
   float: left;
-  transform: rotate(90deg);
   transform-origin: center;
   width: 40px;
 }
 
+@media (max-width: 768px) {
+  .cta-hero .icon.only_mobile {
+    transform: rotate(90deg);
+  }
+}
+@media (min-width: 769px) {
+  .cta-hero .icon.only_desktop {
+    float: none;
+    transform: rotate(90deg);
+  }
+}
 header.paciente_topo picture img {
   padding: 1em 2em 0 2em;
   height: 12.5vh;
 }
 
-.logo-area {
-  padding: 10px 20px;
+@media (min-width: 769px) {
+  #logo {
+    width: 300px;
+  }
 }
-
 .cta-hero {
   margin-left: 25px;
   position: relative;
@@ -81,16 +103,33 @@ header.paciente_topo picture img {
   right: 10px;
 }
 
+@media (min-width: 769px) {
+  .cta-hero {
+    width: 40%;
+  }
+}
 .perfil-card {
   position: relative;
   border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
 
-.selecao-perfis .perfil-card {
-  min-width: 60vw;
-  min-height: 50vh;
+@media (max-width: 768px) {
+  .selecao-perfis .perfil-card {
+    min-width: 60vw;
+    min-height: 50vh;
+  }
 }
-
+@media (min-width: 769px) {
+  .selecao-perfis .perfil-card {
+    width: 10vw;
+    height: 70vh;
+  }
+  .selecao-perfis .perfil-card.perfil-hovered {
+    width: 60vw;
+  }
+}
 footer nav.menu-mobile {
   height: 100%;
   display: flex;
@@ -130,12 +169,28 @@ footer nav.menu-mobile ul li img {
   height: 60%;
 }
 
+.menu-area {
+  padding: 10px 20px;
+}
+
+@media (min-width: 769px) {
+  .menu-area {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
 .main {
-  background: #00858f;
   overflow: hidden;
   margin-bottom: 10px;
 }
 
+@media (min-width: 769px) {
+  .main {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
 .selecao-perfis {
   display: flex;
   gap: 20px;
@@ -154,6 +209,11 @@ footer nav.menu-mobile ul li img {
   background-position: 80%;
 }
 
+@media (min-width: 769px) {
+  .selecao-perfis {
+    width: 60vw;
+  }
+}
 footer {
   position: fixed;
   bottom: 0;
@@ -165,11 +225,16 @@ footer {
 }
 
 body {
-  background-color: #fff;
+  background: #00858f;
   min-height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
+}
+
+header {
+  background-color: #fff;
+  width: 100vw;
 }
 
 .container {

@@ -2,7 +2,7 @@
     require_once('src/includes/head.php')
 ?>
 <header>
-    <div class="logo-area">
+    <div class="menu-area">
         <img id="logo" src="<?=BASEURL?>assets/images/logo_mobile.png" alt="Logo">
     </div>
 </header>
@@ -13,8 +13,9 @@
         <img class="icon" src="<?=BASEURL?>assets/images/perfil/setas.png" alt="">
     </section>
     <section class="selecao-perfis">
-        <div class="perfil-card paciente" id="link-paciente">
+        <div class="perfil-card paciente perfil-hovered" id="link-paciente">
             <img src="<?=BASEURL?>assets/images/perfil/touch.png" alt="Icone de Toque" class="icon only_mobile">
+            <img src="<?=BASEURL?>assets/images/perfil/click.png" alt="Icone de Toque" class="icon only_desktop">
             <h2 class="perfil-name">Sou Paciente</h2>
         </div>
         <div class="perfil-card medico" id="link-medico">

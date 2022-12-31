@@ -1,11 +1,20 @@
 .perfil-card
     position: relative
     border-radius: 10px
+    cursor: pointer
+    transition: all 0.5s ease-in-out
 
-.selecao-perfis
-    .perfil-card
-        min-width: 60vw
-        min-height: 50vh
-@media (min-width: 768px) 
+@media (max-width: 768px) 
     .selecao-perfis
         .perfil-card
+            min-width: 60vw
+            min-height: 50vh
+
+
+@media (min-width: 769px) 
+    .selecao-perfis
+        .perfil-card
+            width: 10vw
+            height: 70vh
+            &.perfil-hovered
+                width: 60vw
