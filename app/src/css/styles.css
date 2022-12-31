@@ -44,9 +44,16 @@ html {
 }
 
 @media (min-width: 769px) {
-  .perfil-name {
+  .perfil-card:not(.perfil-hovered) .perfil-name {
+    transform: rotate(180deg);
+    padding: 7px 3px;
+    writing-mode: vertical-rl;
+  }
+  .perfil-card .perfil-name {
     font-size: 2em;
     padding: 10px 20px;
+    width: 50%;
+    border-radius: 0px 10px 0px 10px;
   }
 }
 .perfil-card .icon {
@@ -59,6 +66,14 @@ html {
   z-index: 1;
 }
 
+.perfil-card .icon.only_desktop {
+  transform: rotate(0);
+}
+
+.perfil-card:not(.perfil-hovered) .icon {
+  display: none;
+}
+
 .cta-hero h3 {
   font-size: 1.7em;
   color: #fff;
@@ -66,6 +81,14 @@ html {
   margin-top: 1em;
 }
 
+@media (min-width: 769px) {
+  .cta-hero {
+    margin-top: 50px;
+  }
+  .cta-hero h3 {
+    font-size: 2.5em;
+  }
+}
 .cta-hero .icon {
   float: left;
   transform-origin: center;
@@ -212,6 +235,8 @@ footer nav.menu-mobile ul li img {
 @media (min-width: 769px) {
   .selecao-perfis {
     width: 60vw;
+    overflow: hidden;
+    align-items: center;
   }
 }
 footer {
@@ -224,6 +249,11 @@ footer {
   z-index: 2;
 }
 
+@media (min-width: 769px) {
+  footer {
+    border: 0;
+  }
+}
 body {
   background: #00858f;
   min-height: 100vh;

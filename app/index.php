@@ -20,6 +20,7 @@
         </div>
         <div class="perfil-card medico" id="link-medico">
             <img src="<?=BASEURL?>assets/images/perfil/touch.png" alt="Icone de Toque" class="icon only_mobile">
+            <img src="<?=BASEURL?>assets/images/perfil/click.png" alt="Icone de Toque" class="icon only_desktop">
             <h2 class="perfil-name">Sou Médico</h2>
         </div>
     </section>
