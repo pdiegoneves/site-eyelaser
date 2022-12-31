@@ -1,7 +1,7 @@
 const BASEURL = 'http://127.0.0.1/eyelaser'
 
-const linkEntradaMedico = document.querySelector('.link.medico')
-const linkEntradaPaciente = document.querySelector('.link.paciente')
+const linkEntradaMedico = document.getElementById('link-medico')
+const linkEntradaPaciente = document.getElementById('link-paciente')
 
 linkEntradaMedico.addEventListener('click', (event) => {
   event.preventDefault()

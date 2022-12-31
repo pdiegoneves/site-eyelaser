@@ -15,35 +15,37 @@ html {
   font-family: "Maven Pro", sans-serif;
 }
 
+.margin-bottom {
+  margin-bottom: 5vh;
+}
+
 .only_mobile {
   display: block;
 }
 
-.only_mobile ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+@media (min-width: 769px) {
+  .only_mobile {
+    display: none !important;
+  }
 }
-
-.margin-bottom {
-  margin-bottom: 5vh;
-}
-.margin-bottom .only_mobile {
-  display: none;
-}
-
 .perfil-name {
   position: absolute;
-  background-color: rgba(27, 94, 131, 0.7921568627);
+  background-color: #1b5e83;
   color: #fff;
   width: 90%;
   bottom: 0;
+  border-bottom-left-radius: 10px;
+  padding: 3px 7px;
 }
 
 .perfil-card .icon {
+  position: absolute;
   transform: rotate(-40deg);
   transform-origin: center;
   width: 50px;
+  bottom: 7%;
+  right: 5%;
+  z-index: 1;
 }
 
 .cta-hero h3 {
@@ -60,6 +62,15 @@ html {
   width: 40px;
 }
 
+header.paciente_topo picture img {
+  padding: 1em 2em 0 2em;
+  height: 12.5vh;
+}
+
+.logo-area {
+  padding: 10px 20px;
+}
+
 .cta-hero {
   margin-left: 25px;
   position: relative;
@@ -70,21 +81,87 @@ html {
   right: 10px;
 }
 
+.perfil-card {
+  position: relative;
+  border-radius: 10px;
+}
+
+.selecao-perfis .perfil-card {
+  min-width: 60vw;
+  min-height: 50vh;
+}
+
+footer nav.menu-mobile {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  width: 100%;
+  bottom: 0;
+}
+footer nav.menu-mobile ul {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer nav.menu-mobile ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  cursor: pointer;
+}
+footer nav.menu-mobile ul li.mobile-menu {
+  background-color: #0f9ea9;
+}
+footer nav.menu-mobile ul li.mobile-menu img {
+  height: 40%;
+}
+footer nav.menu-mobile ul li.mobile-location {
+  background-color: #00858f;
+}
+footer nav.menu-mobile ul li.mobile-phone {
+  background-color: #1e6d84;
+}
+footer nav.menu-mobile ul li.mobile-whatszap {
+  background-color: #1b5e83;
+}
+footer nav.menu-mobile ul li img {
+  height: 60%;
+}
+
 .main {
   background: #00858f;
+  overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .selecao-perfis {
-  margin: 25px 0 0 25px;
-}
-.selecao-perfis .perfil-card {
-  position: relative;
-  width: 60vw;
-  height: 40vh;
+  display: flex;
+  gap: 20px;
+  padding: 25px;
+  width: 200vw;
+  overflow-x: scroll;
 }
 .selecao-perfis .perfil-card.paciente {
   background: url("../../assets/images/perfil/perfil-paciente.jpg");
   background-size: cover;
+  background-position: 30%;
+}
+.selecao-perfis .perfil-card.medico {
+  background: url("../../assets/images/perfil/perfil-medico.png");
+  background-size: cover;
+  background-position: 80%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 8vh;
+  width: 100vw;
+  border-top: 2px solid #fff;
+  z-index: 2;
 }
 
 body {
@@ -129,52 +206,6 @@ body {
     background: url("https://via.placeholder.com/1250/fce?text=Paciente") center center no-repeat;
   }
 }
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  height: 5vh;
-  width: 100vw;
-  border-top: 2px solid #fff;
-}
-footer nav.only_mobile {
-  height: 100%;
-  display: flex;
-  flex: 1;
-  width: 100%;
-}
-footer nav.only_mobile ul {
-  display: flex;
-  flex: 1;
-}
-footer nav.only_mobile ul li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  cursor: pointer;
-}
-footer nav.only_mobile ul li.mobile-menu {
-  background-color: #0f9ea9;
-}
-footer nav.only_mobile ul li.mobile-location {
-  background-color: #00858f;
-}
-footer nav.only_mobile ul li.mobile-phone {
-  background-color: #1e6d84;
-}
-footer nav.only_mobile ul li.mobile-whatszap {
-  background-color: #1b5e83;
-}
-footer nav.only_mobile ul li img {
-  height: 70%;
-}
-
-header.paciente_topo picture img {
-  padding: 1em 2em 0 2em;
-  height: 12.5vh;
-}
-
 .banner {
   position: relative;
   height: 50vw;

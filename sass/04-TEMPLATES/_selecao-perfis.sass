@@ -1,12 +1,19 @@
 @import '../00-CORE/_variaveis'
 
 .selecao-perfis
-    margin: 25px 0 0 25px 
+    display: flex
+    gap: 20px
+    padding: 25px 
+    width: 200vw
+    overflow-x: scroll
     .perfil-card
-        position: relative
-        width: 60vw
-        height: 40vh
-
         &.paciente
             background: url('../../assets/images/perfil/perfil-paciente.jpg')
             background-size: cover
+            background-position: 30%
+        &.medico
+            background: url('../../assets/images/perfil/perfil-medico.png')
+            background-size: cover
+            background-position: 80%
+
+    

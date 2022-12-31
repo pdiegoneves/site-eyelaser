@@ -1,6 +1,5 @@
-<?php if(!$index) { ?>
 <footer>
-    <nav class="only_mobile">
+    <nav class="menu-mobile only_mobile">
         <ul>
             <li class='mobile-menu'><img src="<?=BASEURL?>assets/images/icons/icon_menu.png" alt=""></li>
             <li class='mobile-location'><img src="<?=BASEURL?>assets/images/icons/icon_mapa.png" alt=""></li>
@@ -11,7 +10,6 @@
 </footer>
 
 <div class="margin-bottom"></div>
-<?php } ?>
 <script src='<?=BASEURL?>src/js/script.js'></script>
 </body>
 

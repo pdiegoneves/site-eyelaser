@@ -1,18 +1,15 @@
 footer
-    position: fixed
-    bottom: 0
-    left: 0
-    height: 5vh
-    width: 100vw
-    border-top: 2px solid #fff
-    nav.only_mobile
+    nav.menu-mobile
         height: 100%
         display: flex
         flex: 1
         width: 100%
+        bottom: 0
         ul
             display: flex
             flex: 1
+            flex-direction: row
+            justify-content: space-around
             li
                 display: flex
                 justify-content: center
@@ -21,6 +18,8 @@ footer
                 cursor: pointer
                 &.mobile-menu
                     background-color: #0f9ea9
+                    img
+                        height: 40%
                 &.mobile-location
                     background-color: #00858f
                 &.mobile-phone
@@ -28,4 +27,5 @@ footer
                 &.mobile-whatszap
                     background-color: #1b5e83
                 img
-                    height: 70%
+                    height: 60%
+
