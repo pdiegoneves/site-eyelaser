@@ -6,6 +6,7 @@
         <img id="logo" src="<?=BASEURL?>assets/images/logo_mobile.png" alt="Logo">
     </div>
 </header>
+<div class='bg-main'>
 <main class="main">
     <section class="cta-hero">
         <h3>Bem vinda(a) ao EyeLaser.</h3>
@@ -25,6 +26,7 @@
         </div>
     </section>
 </main>
+</div>
 <?php
     require_once('src/includes/footer.php');
 ?>

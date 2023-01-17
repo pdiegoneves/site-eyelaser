@@ -74,6 +74,11 @@ html {
   display: none;
 }
 
+@media (max-width: 768px) {
+  .perfil-card:not(.perfil-hovered) .icon {
+    display: block;
+  }
+}
 .cta-hero h3 {
   font-size: 1.7em;
   color: #fff;
@@ -107,8 +112,7 @@ html {
   }
 }
 header.paciente_topo picture img {
-  padding: 1em 2em 0 2em;
-  height: 12.5vh;
+  height: 9vh;
 }
 
 @media (min-width: 769px) {
@@ -116,6 +120,12 @@ header.paciente_topo picture img {
     width: 300px;
   }
 }
+.paciente-menu-topo-link {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #00858f;
+}
+
 .cta-hero {
   margin-left: 25px;
   position: relative;
@@ -131,6 +141,12 @@ header.paciente_topo picture img {
     width: 40%;
   }
 }
+.paciente-menu-topo ul {
+  display: flex;
+  gap: 2em;
+  z-index: 2;
+}
+
 .perfil-card {
   position: relative;
   border-radius: 10px;
@@ -202,6 +218,78 @@ footer nav.menu-mobile ul li img {
     margin: 0 auto;
   }
 }
+.paciente_topo {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: fixed;
+  height: 10vh;
+  z-index: 3;
+}
+
+.banner {
+  position: relative;
+  height: 50vw;
+}
+.banner img {
+  position: absolute;
+}
+.banner img#cc {
+  right: 0;
+  bottom: 0;
+  width: 55vw;
+  height: 55vw;
+}
+.banner img#modelo {
+  bottom: 0;
+  right: 10vw;
+  z-index: 2;
+}
+.banner img#raios_branco {
+  right: 0px;
+  top: 40px;
+  width: 30vw;
+  z-index: 1;
+}
+.banner img#raios_roxo {
+  left: 45vw;
+  top: 15vw;
+  width: 15vw;
+  z-index: 1;
+}
+.banner img#meia_elipse {
+  bottom: 0;
+  right: 0;
+  width: 28vw;
+  height: 22vw;
+  z-index: 1;
+}
+.banner img#raios_verde {
+  top: -10vw;
+  left: 35vw;
+  width: 30vw;
+  z-index: 1;
+}
+.banner h2 {
+  position: absolute;
+  font-family: "Maven Pro", sans-serif;
+  text-transform: uppercase;
+  color: #1b5e83;
+  font-size: 6vw;
+  left: 10vw;
+  top: 10vw;
+}
+
+.bg-main {
+  background-color: #00858f;
+}
+
 .main {
   overflow: hidden;
   margin-bottom: 10px;
@@ -255,7 +343,7 @@ footer {
   }
 }
 body {
-  background: #00858f;
+  background: #fff;
   min-height: 100vh;
   position: relative;
   display: flex;
@@ -265,6 +353,15 @@ body {
 header {
   background-color: #fff;
   width: 100vw;
+}
+
+.pg-paciente {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.pg-paciente main .banner {
+  margin-top: 10vh;
 }
 
 .container {
@@ -301,59 +398,6 @@ header {
     background: url("https://via.placeholder.com/1250/fce?text=Paciente") center center no-repeat;
   }
 }
-.banner {
-  position: relative;
-  height: 50vw;
-}
-.banner img {
-  position: absolute;
-}
-.banner img#cc {
-  right: 0;
-  bottom: 0;
-  width: 55vw;
-  height: 55vw;
-}
-.banner img#modelo {
-  bottom: 0;
-  right: 10vw;
-  z-index: 9;
-}
-.banner img#raios_branco {
-  right: 0px;
-  top: 40px;
-  width: 30vw;
-  z-index: 8;
-}
-.banner img#raios_roxo {
-  left: 45vw;
-  top: 15vw;
-  width: 15vw;
-  z-index: 10;
-}
-.banner img#meia_elipse {
-  bottom: 0;
-  right: 0;
-  width: 28vw;
-  z-index: 10;
-  height: 22vw;
-}
-.banner img#raios_verde {
-  top: -10vw;
-  left: 35vw;
-  width: 30vw;
-  z-index: 5;
-}
-.banner h2 {
-  position: absolute;
-  font-family: "Maven Pro", sans-serif;
-  text-transform: uppercase;
-  color: #1b5e83;
-  font-size: 6vw;
-  left: 10vw;
-  top: 10vw;
-}
-
 .cards {
   display: flex;
   flex-direction: column;
