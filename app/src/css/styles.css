@@ -235,7 +235,7 @@ footer nav.menu-mobile ul li img {
 
 .banner {
   position: relative;
-  height: 50vw;
+  height: 100vh;
 }
 .banner img {
   position: absolute;
@@ -268,7 +268,7 @@ footer nav.menu-mobile ul li img {
   right: 0;
   width: 28vw;
   height: 22vw;
-  z-index: 1;
+  z-index: 3;
 }
 .banner img#raios_verde {
   top: -10vw;
@@ -286,6 +286,80 @@ footer nav.menu-mobile ul li img {
   top: 10vw;
 }
 
+.cards {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  font-family: "Maven Pro", sans-serif;
+  width: 100vw;
+}
+.cards .card {
+  position: relative;
+  height: 60vh;
+  text-align: center;
+}
+.cards .card .card-front {
+  position: absolute;
+  z-index: 2;
+}
+.cards .card .card-front .avatar {
+  border-radius: 50%;
+  width: 33%;
+  margin: 1em;
+}
+.cards .card .card-front h2 {
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+.cards .card .card-front .card-text {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+.cards .card .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.cards .card .card-back .backgroundImage {
+  opacity: 0.25;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.cards .card#cirurgia-refrativa {
+  background-color: rgba(10, 194, 190, 0.7921568627);
+}
+.cards .card#ceratocone {
+  background-color: rgba(0, 133, 143, 0.7921568627);
+}
+.cards .card#olho-seco {
+  background-color: rgba(27, 94, 131, 0.7921568627);
+}
+
+@media (width >= 769px) {
+  .cards {
+    flex-direction: row;
+  }
+  .cards .card {
+    width: 33.3333333333%;
+  }
+}
+.cta1 {
+  height: 50vh;
+}
+.cta1.superior {
+  background-color: #0ac2b3;
+  color: #fff;
+}
+.cta1.inferior {
+  color: #00858f;
+}
+
 .bg-main {
   background-color: #00858f;
 }
@@ -300,6 +374,11 @@ footer nav.menu-mobile ul li img {
     display: flex;
     max-width: 1280px;
     margin: 0 auto;
+  }
+}
+@media (width >= 769px) {
+  .paciente-main {
+    max-width: 1280px;
   }
 }
 .selecao-perfis {
@@ -355,6 +434,10 @@ header {
   width: 100vw;
 }
 
+.dobra {
+  min-height: 100vh;
+}
+
 .pg-paciente {
   max-width: 1280px;
   margin: 0 auto;
@@ -397,51 +480,6 @@ header {
   .container .link.paciente {
     background: url("https://via.placeholder.com/1250/fce?text=Paciente") center center no-repeat;
   }
-}
-.cards {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  justify-content: flex-start;
-  align-items: center;
-  color: #fff;
-  font-family: "Maven Pro", sans-serif;
-}
-.cards .card {
-  position: relative;
-  height: 60vh;
-  text-align: center;
-  padding: 1em;
-}
-.cards .card .avatar {
-  border-radius: 50%;
-  width: 33%;
-  margin: 1em;
-}
-.cards .card .backgroundImage {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  object-fit: cover;
-  z-index: -1;
-}
-.cards .card h2 {
-  text-transform: uppercase;
-  margin-bottom: 1em;
-}
-.cards .card p {
-  font-size: 1.1em;
-  font-weight: 500;
-}
-.cards .card#cirurgia-refrativa {
-  background-color: rgba(10, 194, 190, 0.7921568627);
-}
-.cards .card#ceratocone {
-  background-color: rgba(0, 133, 143, 0.7921568627);
-}
-.cards .card#olho-seco {
-  background-color: rgba(27, 94, 131, 0.7921568627);
 }
 
 /*# sourceMappingURL=styles.css.map */
