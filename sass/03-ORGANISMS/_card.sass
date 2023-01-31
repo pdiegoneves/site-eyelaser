@@ -8,7 +8,6 @@
     color: #fff
     font-family: 'Maven Pro', sans-serif
     width: 100vw
-
     .card
         position: relative
         height: 60vh
@@ -39,11 +38,14 @@
                 object-fit: cover
                 z-index: 1
         &#cirurgia-refrativa
-            background-color: #0AC2BEca
+            background-image: url($baseurl + "/app/assets/images/cards/bg-refrativa.png")
+            background-size: cover
         &#ceratocone
-            background-color: #00858Fca
+            background-image: url($baseurl + "/app/assets/images/cards/bg-ceratocone.png")
+            background-size: cover
         &#olho-seco
-            background-color: #1B5E83ca
+            background-image: url($baseurl + "/app/assets/images/cards/bg-olho-seco.png")
+            background-size: cover
 @media (width >= 769px)
     .cards
         flex-direction: row

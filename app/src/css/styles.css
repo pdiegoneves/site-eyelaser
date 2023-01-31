@@ -12,6 +12,10 @@
 }
 
 html {
+  scroll-behavior: smooth;
+}
+
+html {
   font-family: "Maven Pro", sans-serif;
 }
 
@@ -124,6 +128,13 @@ header.paciente_topo picture img {
   text-transform: uppercase;
   font-weight: bold;
   color: #00858f;
+}
+
+.img-cta1 {
+  position: absolute;
+  left: 40%;
+  bottom: 8%;
+  width: 50vw;
 }
 
 .cta-hero {
@@ -332,13 +343,16 @@ footer nav.menu-mobile ul li img {
   z-index: 1;
 }
 .cards .card#cirurgia-refrativa {
-  background-color: rgba(10, 194, 190, 0.7921568627);
+  background-image: url("http://localhost/eyelaser//app/assets/images/cards/bg-refrativa.png");
+  background-size: cover;
 }
 .cards .card#ceratocone {
-  background-color: rgba(0, 133, 143, 0.7921568627);
+  background-image: url("http://localhost/eyelaser//app/assets/images/cards/bg-ceratocone.png");
+  background-size: cover;
 }
 .cards .card#olho-seco {
-  background-color: rgba(27, 94, 131, 0.7921568627);
+  background-image: url("http://localhost/eyelaser//app/assets/images/cards/bg-olho-seco.png");
+  background-size: cover;
 }
 
 @media (width >= 769px) {
@@ -351,13 +365,32 @@ footer nav.menu-mobile ul li img {
 }
 .cta1 {
   height: 50vh;
+  height-position: relative;
 }
 .cta1.superior {
   background-color: #0ac2b3;
   color: #fff;
 }
+.cta1.superior h2 {
+  width: 35%;
+}
 .cta1.inferior {
   color: #00858f;
+}
+.cta1.inferior h2 {
+  width: 55%;
+  padding-top: 2em;
+}
+.cta1 h2 {
+  padding: 1em;
+  font-size: 2.9em;
+}
+.cta1 p {
+  color: #000;
+  text-align: right;
+  width: 30%;
+  right: 0;
+  transform: translateX(200%);
 }
 
 .bg-main {
@@ -442,6 +475,9 @@ header {
   max-width: 1280px;
   margin: 0 auto;
   background-color: #fff;
+}
+.pg-paciente main {
+  width: 100%;
 }
 .pg-paciente main .banner {
   margin-top: 10vh;

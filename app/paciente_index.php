@@ -13,14 +13,14 @@
         <ul>
             <li class="paciente-menu-topo-link"><a href="#">home</a></li>
             <li class="paciente-menu-topo-link"><a href="#">quem somos</a></li>
-            <li class="paciente-menu-topo-link"><a href="#">especialidade</a></li>
+            <li class="paciente-menu-topo-link"><a href="#especialidades">especialidade</a></li>
             <li class="paciente-menu-topo-link"><a href="#">convênios</a></li>
             <li class="paciente-menu-topo-link"><a href="#">contatos</a></li>
         </ul>
     </nav>
 </header>
 <main class='paciente-main'>
-<section class="dobra">
+<section class="dobra hero">
     <div class="banner">
         <img src="<?=BASEURL?>assets/images/banner/cc.png" id='cc' alt="">
         <img src="<?=BASEURL?>assets/images/banner/modelo.png" id='modelo' alt="">
@@ -30,17 +30,13 @@
         <img src="<?=BASEURL?>assets/images/banner/meia_elipse.png" id='meia_elipse' alt="">
         <h2>Seu<br>mundo<br>com um<br>novo<br>olhar</h2>
     </div>
-    <div class="cards">
+    <div class="cards" id='especialidades'>
         <article class="card" id='cirurgia-refrativa'>
             <div class="card-front">
                 <img src="<?=BASEURL?>assets/images/cards/avatar-refrativa.png" alt="" class="avatar">
                 <h2>Cirurgias<br>Refrativas</h2>
                 <p class="card-text">São procedimentos cirúrgicos que visam a mudanção da refração dos olhos, resultando na correção dos vícios de refração.</p>
             </div>
-            <div class="card-back">
-                <img src="<?=BASEURL?>assets/images/cards/bg-refrativa.jpg" class='backgroundImage' alt="">
-            </div>
-
         </article>
         <article class="card" id='ceratocone'>
             <div class="card-front">
@@ -48,11 +44,6 @@
                 <h2>ceratocone</h2>
                 <p class="card-text">Trata-se de uma doença ocular que altera a espessura e o formato da córnea, provocando uma distorção nas
                     imagens que chegam ao olho.</p>
-        
-            </div>
-            <div class="card-back">
-                <img src="<?=BASEURL?>assets/images/cards/bg-ceratocone.jpg" class='backgroundImage' alt="">
-        
             </div>
         </article>
         <article class="card" id='olho-seco'>
@@ -62,26 +53,23 @@
                 <p class="card-text">Síndrome de ressecamento do olho causado pela redução da produção ou alteração da composição das lágrimas
                 (filme lacrimal) pelas glândulas lacrimais.</p>
             </div>
-            <div class="card-back">
-            <img src="<?=BASEURL?>assets/images/cards/bg-olho-seco.jpg" class='backgroundImage' alt="">
-
-                </div>
-
         </article>
     </div>
     </section>
     <section class="dobra">
         <div class="cta1 superior">
             <h2>Cansado de depender de lentes para enxergar a vida com nitidez?</h2>
+            <img class='img-cta1' src="<?=BASEURL?>assets/images/suite_refrativa.png" alt="">
         </div>
         <div class="cta1 inferior">
             <h2>O EyeLaser é o único local em Alagoas que realiza cirurgia refrativa à laser.</h2>
             <div class="text-complementar">
-                <p></p>
-                <p></p>
+                <p>Nossa Suíte Refrativa é o que há de mais moderno em todo o planeta.</p>
+                <p>Altíssimo nível de segurança e precisão, com excelentes resultados.</p>
             </div>
         </div>
     </section>
+
 </main>
 
 </div>
