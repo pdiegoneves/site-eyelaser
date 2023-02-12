@@ -19,6 +19,12 @@ html {
   font-family: "Maven Pro", sans-serif;
 }
 
+.identificador {
+  position: absolute;
+  top: -10vh;
+  background-color: red;
+}
+
 .margin-bottom {
   margin-bottom: 5vh;
 }
@@ -132,9 +138,21 @@ header.paciente_topo picture img {
 
 .img-cta1 {
   position: absolute;
-  left: 40%;
-  bottom: 8%;
-  width: 50vw;
+  right: 7%;
+  bottom: 20%;
+  width: 40vw;
+}
+
+.institucional-item-title {
+  color: #00858f;
+  margin-bottom: 1em;
+}
+
+.institucional-item-text p, .institucional-item-text li {
+  margin-bottom: 0.5em;
+}
+.institucional-item-text li::before {
+  content: "- ";
 }
 
 .cta-hero {
@@ -306,6 +324,7 @@ footer nav.menu-mobile ul li img {
   color: #fff;
   font-family: "Maven Pro", sans-serif;
   width: 100vw;
+  position: relative;
 }
 .cards .card {
   position: relative;
@@ -364,8 +383,11 @@ footer nav.menu-mobile ul li img {
   }
 }
 .cta1 {
-  height: 50vh;
-  height-position: relative;
+  min-height: 50vh;
+}
+.cta1 h2 {
+  padding: 3rem;
+  font-size: 2.9em;
 }
 .cta1.superior {
   background-color: #0ac2b3;
@@ -376,21 +398,34 @@ footer nav.menu-mobile ul li img {
 }
 .cta1.inferior {
   color: #00858f;
+  background-color: #F7F7F7;
 }
 .cta1.inferior h2 {
-  width: 55%;
+  width: 50%;
   padding-top: 2em;
 }
-.cta1 h2 {
-  padding: 1em;
-  font-size: 2.9em;
-}
-.cta1 p {
+.cta1.inferior .text-complementar {
+  position: absolute;
   color: #000;
+  bottom: 7%;
+  right: 7%;
   text-align: right;
   width: 30%;
-  right: 0;
-  transform: translateX(200%);
+}
+
+.dobra.institucional {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 3rem;
+}
+.dobra.institucional .grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 3rem;
+}
+.dobra.institucional .grid .valores {
+  grid-column: 2/4;
 }
 
 .bg-main {
@@ -469,6 +504,7 @@ header {
 
 .dobra {
   min-height: 100vh;
+  position: relative;
 }
 
 .pg-paciente {

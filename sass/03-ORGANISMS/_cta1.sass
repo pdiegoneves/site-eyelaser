@@ -1,25 +1,25 @@
 @import '../00-CORE/_variaveis'
 
 .cta1
-    height: 50vh
-        position: relative
+    min-height: 50vh
+    h2
+        padding: 3rem
+        font-size: 2.9em
     &.superior
         background-color: $cor-clara
         color: #fff
         h2
             width: 35%
-
     &.inferior
         color: $cor-escura
+        background-color: #F7F7F7
         h2
-            width: 55%
+            width: 50%
             padding-top: 2em
-    h2
-        padding: 1em
-        font-size: 2.9em
-    p
-        color: #000
-        text-align: right
-        width: 30%
-        right: 0
-        transform: translateX(200%)
+        .text-complementar
+            position: absolute
+            color: #000
+            bottom: 7%
+            right: 7%
+            text-align: right
+            width: 30%
