@@ -1,0 +1,43 @@
+@import '../00-CORE/_variaveis'
+.grid-item-especialidade
+  &.refrativa
+    min-height: 525px
+    background: url($baseurl + 'app/assets/images/especialidades/bg-refrativa_mob.png')
+    background-size: cover
+  &.ceratocone
+    min-height: 525px
+    background: url($baseurl + 'app/assets/images/especialidades/bg-ceratocone_mob.png')
+    background-size: cover
+  &.olho-seco
+    min-height: 525px
+    background: url($baseurl + 'app/assets/images/especialidades/bg-olho-seco_mob.png')
+    background-size: cover
+  
+
+@media (width > 1281px)
+  .grid-item-especialidade
+    &.refrativa
+      background: url($baseurl + 'app/assets/images/especialidades/bg-refrativa_extra.png')
+      background-size: cover
+    &.ceratocone
+      min-height: 525px
+      background: url($baseurl + 'app/assets/images/especialidades/bg-ceratocone_extra.png')
+      background-size: cover
+    &.olho-seco
+      min-height: 525px
+      background: url($baseurl + 'app/assets/images/especialidades/bg-olho-seco_extra.png')
+      background-size: cover
+
+@media (600px < width < 1281px)
+  .grid-item-especialidade
+    &.refrativa
+      background: url($baseurl + 'app/assets/images/especialidades/bg-refrativa_desk.png')
+      background-size: cover
+    &.ceratocone
+      min-height: 525px
+      background: url($baseurl + 'app/assets/images/especialidades/bg-ceratocone_desk.png')
+      background-size: cover
+    &.olho-seco
+      min-height: 525px
+      background: url($baseurl + 'app/assets/images/especialidades/bg-olho-seco_desk.png')
+      background-size: cover

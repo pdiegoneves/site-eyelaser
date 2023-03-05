@@ -11,7 +11,7 @@
     <nav class='paciente-menu-topo'>
       <ul>
         <li class="paciente-menu-topo-link"><a href="#">home</a></li>
-        <li class="paciente-menu-topo-link"><a href="#especialidades">especialidade</a></li>
+        <li class="paciente-menu-topo-link"><a href="#especialidades">especialidades</a></li>
         <li class="paciente-menu-topo-link"><a href="#institucional">quem somos</a></li>
         <li class="paciente-menu-topo-link"><a href="#">convênios</a></li>
         <li class="paciente-menu-topo-link"><a href="#">contatos</a></li>
@@ -21,6 +21,11 @@
   <main class='paciente-main'>
     <section class="dobra hero">
       <div class="hero-banner">
+        <h2 class="hero-banner-title">
+          <span class="bold">seu<br>mundo</span><br>
+          <span class="semi-bold">com um</span><br>
+          <span class="extra-bold">novo<br>olhar</span>
+        </h2>
         <img class="hero-banner-cc" src="<?=BASEURL?>assets/images/banner/pacientes/cc.png" alt="">
         <img class="hero-banner-elipse" src="<?=BASEURL?>assets/images/banner/pacientes/elipse.png" alt="">
         <img class="hero-banner-modelo" src="<?=BASEURL?>assets/images/banner/pacientes/modelo.png" alt="">
@@ -30,6 +35,12 @@
       </div>
     </section>
     <section class="dobra">
+    <span class="identificador" id='especialidades'></span>
+    <div class="grid-especialidades">
+      <div class="grid-item-especialidade refrativa"></div>
+      <div class="grid-item-especialidade ceratocone"></div>
+      <div class="grid-item-especialidade olho-seco"></div>
+    </div>
 
     <section class="dobra institucional">
     <span class="identificador" id='institucional'></span>
