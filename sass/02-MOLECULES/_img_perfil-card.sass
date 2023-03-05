@@ -1,0 +1,21 @@
+.img-perfil-card
+  filter: greyscale(1)
+  #perfil-medico
+    object-position: right
+  img
+    min-height: 100vh
+    object-fit: cover
+    transition: all 0.5s ease-in-out
+    filter: grayscale(1)
+
+.link-perfil#link-paciente:hover ~ .perfil-card.paciente .img-perfil-card
+  img
+    transform: scale(1.3)
+    cursor: pointer
+    filter: grayscale(0)
+
+.link-perfil#link-medico:hover ~ .perfil-card.medico .img-perfil-card
+  img
+    transform: scale(1.3)
+    cursor: pointer
+    filter: grayscale(0)

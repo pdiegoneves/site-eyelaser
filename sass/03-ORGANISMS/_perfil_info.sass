@@ -1,0 +1,56 @@
+@import '../00-CORE/_variaveis'
+.perfil-info-paciente
+  position: absolute
+  right: 5%
+  bottom: 10%
+  width: 14rem
+  filter: brightness(1.8)
+  transition: all 0.5s ease-in-out
+  .arrow-left
+    position: relative
+    .arrow-left-text
+      position: absolute
+      top: 20%
+      right: 20%
+      text-align: right
+      color: #005E85
+      p
+        font-size: 1.3rem
+        margin-bottom: -5px
+      h3
+        font-size: 1.7rem
+        font-weight: bold
+  &:hover
+    filter: brightness(1)
+    
+.link-perfil#link-paciente:hover ~ .perfil-card.paciente .perfil-info-paciente
+  filter: brightness(1)
+
+.perfil-info-medico
+  position: absolute
+  left: 5%
+  bottom: 10%
+  width: 14rem
+  filter: brightness(1.8)
+  transition: all 0.5s ease-in-out
+  .arrow-right
+    position: relative
+    .arrow-right-text
+      position: absolute
+      top: 20%
+      left: 20%
+      text-align: right
+      color: #005E85
+      p
+        font-size: 1.3rem
+        margin-bottom: -5px
+      h3
+        font-size: 1.7rem
+        font-weight: bold
+  &:hover
+    filter: brightness(1)
+    
+.link-perfil#link-medico:hover ~ .perfil-card.medico .perfil-info-medico
+  filter: brightness(1)
+
+

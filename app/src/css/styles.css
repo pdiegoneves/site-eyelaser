@@ -1,5 +1,4 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +15,12 @@ html {
 }
 
 html {
-  font-family: "Maven Pro", sans-serif;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
 }
 
 .identificador {
@@ -43,515 +47,157 @@ html {
     display: none !important;
   }
 }
-.perfil-name {
+.link-perfil {
   position: absolute;
-  background-color: #1b5e83;
-  color: #fff;
-  width: 90%;
-  bottom: 0;
-  border-bottom-left-radius: 10px;
-  padding: 3px 7px;
-}
-
-@media (min-width: 769px) {
-  .perfil-card:not(.perfil-hovered) .perfil-name {
-    transform: rotate(180deg);
-    padding: 7px 3px;
-    writing-mode: vertical-rl;
-  }
-  .perfil-card .perfil-name {
-    font-size: 2em;
-    padding: 10px 20px;
-    width: 50%;
-    border-radius: 0px 10px 0px 10px;
-  }
-}
-.perfil-card .icon {
-  position: absolute;
-  transform: rotate(-40deg);
-  transform-origin: center;
-  width: 50px;
-  bottom: 7%;
-  right: 5%;
+  cursor: pointer;
+  width: 33%;
+  height: 100%;
   z-index: 1;
 }
-
-.perfil-card .icon.only_desktop {
-  transform: rotate(0);
+.link-perfil#link-paciente {
+  top: 0;
+  left: 0;
+}
+.link-perfil#link-medico {
+  top: 0;
+  right: 0;
 }
 
-.perfil-card:not(.perfil-hovered) .icon {
-  display: none;
+.img-perfil-card {
+  filter: greyscale(1);
+}
+.img-perfil-card #perfil-medico {
+  object-position: right;
+}
+.img-perfil-card img {
+  min-height: 100vh;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(1);
 }
 
-@media (max-width: 768px) {
-  .perfil-card:not(.perfil-hovered) .icon {
-    display: block;
-  }
-}
-.cta-hero h3 {
-  font-size: 1.7em;
-  color: #fff;
-  width: 75%;
-  margin-top: 1em;
+.link-perfil#link-paciente:hover ~ .perfil-card.paciente .img-perfil-card img {
+  transform: scale(1.3);
+  cursor: pointer;
+  filter: grayscale(0);
 }
 
-@media (min-width: 769px) {
-  .cta-hero {
-    margin-top: 50px;
-  }
-  .cta-hero h3 {
-    font-size: 2.5em;
-  }
-}
-.cta-hero .icon {
-  float: left;
-  transform-origin: center;
-  width: 40px;
-}
-
-@media (max-width: 768px) {
-  .cta-hero .icon {
-    transform: rotate(90deg);
-  }
-}
-@media (min-width: 769px) {
-  .cta-hero .icon {
-    float: none;
-    transform: rotate(0deg);
-  }
-}
-header.paciente_topo picture img {
-  height: 9vh;
-}
-
-@media (min-width: 769px) {
-  #logo {
-    width: 300px;
-  }
-}
-.paciente-menu-topo-link {
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #00858f;
-}
-
-.img-cta1 {
-  position: absolute;
-  right: 7%;
-  bottom: 20%;
-  width: 40vw;
-}
-
-.institucional-item-title {
-  color: #00858f;
-  margin-bottom: 1em;
-}
-
-.institucional-item-text p, .institucional-item-text li {
-  margin-bottom: 0.5em;
-}
-.institucional-item-text li::before {
-  content: "- ";
-}
-
-.cta-hero {
-  margin-left: 25px;
-  position: relative;
-}
-.cta-hero .icon {
-  position: absolute;
-  bottom: 1.2em;
-  right: 10px;
-}
-
-@media (min-width: 769px) {
-  .cta-hero {
-    width: 40%;
-  }
-}
-.paciente-menu-topo ul {
-  display: flex;
-  gap: 2em;
-  z-index: 2;
+.link-perfil#link-medico:hover ~ .perfil-card.medico .img-perfil-card img {
+  transform: scale(1.3);
+  cursor: pointer;
+  filter: grayscale(0);
 }
 
 .perfil-card {
-  position: relative;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.4s ease-out;
-}
-
-@media (max-width: 768px) {
-  .selecao-perfis .perfil-card {
-    min-width: 60vw;
-    min-height: 50vh;
-  }
-}
-@media (min-width: 769px) {
-  .selecao-perfis .perfil-card {
-    width: 10vw;
-    height: 70vh;
-  }
-  .selecao-perfis .perfil-card.perfil-hovered {
-    width: 60vw;
-  }
-}
-footer nav.menu-mobile {
-  height: 100%;
-  display: flex;
-  flex: 1;
-  width: 100%;
-  bottom: 0;
-}
-footer nav.menu-mobile ul {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  justify-content: space-around;
-}
-footer nav.menu-mobile ul li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  cursor: pointer;
-}
-footer nav.menu-mobile ul li.mobile-menu {
-  background-color: #0f9ea9;
-}
-footer nav.menu-mobile ul li.mobile-menu img {
-  height: 40%;
-}
-footer nav.menu-mobile ul li.mobile-location {
-  background-color: #00858f;
-}
-footer nav.menu-mobile ul li.mobile-phone {
-  background-color: #1e6d84;
-}
-footer nav.menu-mobile ul li.mobile-whatszap {
-  background-color: #1b5e83;
-}
-footer nav.menu-mobile ul li img {
-  height: 60%;
-}
-
-.menu-area {
-  padding: 10px 20px;
-}
-
-@media (min-width: 769px) {
-  .menu-area {
-    max-width: 1280px;
-    margin: 0 auto;
-  }
-}
-.paciente_topo {
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #fff;
-  max-width: 1280px;
-  margin: 0 auto;
-  position: fixed;
-  height: 10vh;
-  z-index: 3;
-}
-
-.banner {
-  position: relative;
-  height: 100vh;
-}
-.banner img {
-  position: absolute;
-}
-.banner img#cc {
-  right: 0;
-  bottom: 0;
-  width: 55vw;
-  height: 55vw;
-}
-.banner img#modelo {
-  bottom: 0;
-  right: 10vw;
-  z-index: 2;
-}
-.banner img#raios_branco {
-  right: 0px;
-  top: 40px;
-  width: 30vw;
-  z-index: 1;
-}
-.banner img#raios_roxo {
-  left: 45vw;
-  top: 15vw;
-  width: 15vw;
-  z-index: 1;
-}
-.banner img#meia_elipse {
-  bottom: 0;
-  right: 0;
-  width: 28vw;
-  height: 22vw;
-  z-index: 3;
-}
-.banner img#raios_verde {
-  top: -10vw;
-  left: 35vw;
-  width: 30vw;
-  z-index: 1;
-}
-.banner h2 {
-  position: absolute;
-  font-family: "Maven Pro", sans-serif;
-  text-transform: uppercase;
-  color: #1b5e83;
-  font-size: 6vw;
-  left: 10vw;
-  top: 10vw;
-}
-
-.cards {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  justify-content: flex-start;
-  align-items: center;
-  color: #fff;
-  font-family: "Maven Pro", sans-serif;
-  width: 100vw;
-  position: relative;
-}
-.cards .card {
-  position: relative;
-  height: 60vh;
-  text-align: center;
-}
-.cards .card .card-front {
-  position: absolute;
-  z-index: 2;
-}
-.cards .card .card-front .avatar {
-  border-radius: 50%;
-  width: 33%;
-  margin: 1em;
-}
-.cards .card .card-front h2 {
-  text-transform: uppercase;
-  margin-bottom: 1em;
-}
-.cards .card .card-front .card-text {
-  font-size: 1.1em;
-  font-weight: 500;
-}
-.cards .card .card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.cards .card .card-back .backgroundImage {
-  opacity: 0.25;
-  top: 0;
-  left: 0;
-  width: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-.cards .card#cirurgia-refrativa {
-  background-image: url("http://localhost/eyelaser//app/assets/images/cards/bg-refrativa.png");
-  background-size: cover;
-}
-.cards .card#ceratocone {
-  background-image: url("http://localhost/eyelaser//app/assets/images/cards/bg-ceratocone.png");
-  background-size: cover;
-}
-.cards .card#olho-seco {
-  background-image: url("http://localhost/eyelaser//app/assets/images/cards/bg-olho-seco.png");
-  background-size: cover;
-}
-
-@media (width >= 769px) {
-  .cards {
-    flex-direction: row;
-  }
-  .cards .card {
-    width: 33.3333333333%;
-  }
-}
-.cta1 {
-  min-height: 50vh;
-}
-.cta1 h2 {
-  padding: 3rem;
-  font-size: 2.9em;
-}
-.cta1.superior {
-  background-color: #0ac2b3;
-  color: #fff;
-}
-.cta1.superior h2 {
-  width: 35%;
-}
-.cta1.inferior {
-  color: #00858f;
-  background-color: #F7F7F7;
-}
-.cta1.inferior h2 {
-  width: 50%;
-  padding-top: 2em;
-}
-.cta1.inferior .text-complementar {
-  position: absolute;
-  color: #000;
-  bottom: 7%;
-  right: 7%;
-  text-align: right;
-  width: 30%;
-}
-
-.dobra.institucional {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  padding: 3rem;
-}
-.dobra.institucional .grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 3rem;
-}
-.dobra.institucional .grid .valores {
-  grid-column: 2/4;
-}
-
-.bg-main {
-  background-color: #00858f;
-}
-
-.main {
   overflow: hidden;
-  margin-bottom: 10px;
-}
-
-@media (min-width: 769px) {
-  .main {
-    display: flex;
-    max-width: 1280px;
-    margin: 0 auto;
-  }
-}
-@media (width >= 769px) {
-  .paciente-main {
-    max-width: 1280px;
-  }
-}
-.selecao-perfis {
-  display: flex;
-  gap: 20px;
-  padding: 25px;
-  width: 200vw;
-  overflow-x: scroll;
-}
-.selecao-perfis .perfil-card.paciente {
-  background: url("../../assets/images/perfil/perfil-paciente.jpg");
-  background-size: cover;
-  background-position: 30%;
-}
-.selecao-perfis .perfil-card.medico {
-  background: url("../../assets/images/perfil/perfil-medico.png");
-  background-size: cover;
-  background-position: 80%;
-}
-
-@media (min-width: 769px) {
-  .selecao-perfis {
-    width: 60vw;
-    overflow: hidden;
-    align-items: center;
-  }
-}
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  height: 8vh;
-  width: 100vw;
-  border-top: 2px solid #fff;
-  z-index: 2;
-}
-
-@media (min-width: 769px) {
-  footer {
-    border: 0;
-  }
-}
-body {
-  background: #fff;
-  min-height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-
-header {
-  background-color: #fff;
-  width: 100vw;
-}
-
-.dobra {
-  min-height: 100vh;
   position: relative;
 }
 
-.pg-paciente {
-  max-width: 1280px;
-  margin: 0 auto;
-  background-color: #fff;
+.perfil-info-paciente {
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+  width: 14rem;
+  filter: brightness(1.8);
+  transition: all 0.5s ease-in-out;
 }
-.pg-paciente main {
-  width: 100%;
+.perfil-info-paciente .arrow-left {
+  position: relative;
 }
-.pg-paciente main .banner {
-  margin-top: 10vh;
+.perfil-info-paciente .arrow-left .arrow-left-text {
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  text-align: right;
+  color: #005E85;
+}
+.perfil-info-paciente .arrow-left .arrow-left-text p {
+  font-size: 1.3rem;
+  margin-bottom: -5px;
+}
+.perfil-info-paciente .arrow-left .arrow-left-text h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.perfil-info-paciente:hover {
+  filter: brightness(1);
 }
 
-.container {
+.link-perfil#link-paciente:hover ~ .perfil-card.paciente .perfil-info-paciente {
+  filter: brightness(1);
+}
+
+.perfil-info-medico {
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+  width: 14rem;
+  filter: brightness(1.8);
+  transition: all 0.5s ease-in-out;
+}
+.perfil-info-medico .arrow-right {
+  position: relative;
+}
+.perfil-info-medico .arrow-right .arrow-right-text {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  text-align: right;
+  color: #005E85;
+}
+.perfil-info-medico .arrow-right .arrow-right-text p {
+  font-size: 1.3rem;
+  margin-bottom: -5px;
+}
+.perfil-info-medico .arrow-right .arrow-right-text h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.perfil-info-medico:hover {
+  filter: brightness(1);
+}
+
+.link-perfil#link-medico:hover ~ .perfil-card.medico .perfil-info-medico {
+  filter: brightness(1);
+}
+
+.cta-hero-perfis {
+  background: linear-gradient(344.6deg, #85BCC1 15.31%, #00858F 91.93%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -5px 4px 20px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.cta-hero-perfis .logo {
+  width: 50%;
+  margin-bottom: 1rem;
+}
+.cta-hero-perfis h3 {
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+.cta-hero-perfis p {
+  padding: 2rem;
+  font-size: 18px;
+}
+.cta-hero-perfis .text-cta-hero {
+  text-align: center;
+  font-size: 23;
+  font-weight: bold;
+}
+
+header.paciente_topo {
+  background-color: red;
   display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 100vh;
-}
-.container .link {
-  width: 100vw;
-  height: 50vh;
-  background-size: cover;
-  cursor: pointer;
-}
-.container .link.medico {
-  background: url("https://via.placeholder.com/600/fec?text=Médico") center center no-repeat;
-}
-.container .link.paciente {
-  background: url("https://via.placeholder.com/600/fce?text=Paciente") center center no-repeat;
+  justify-content: space-between;
+  height: 14vh;
+  padding: 1rem;
 }
 
-@media (min-width: 768px) {
-  .container {
-    flex-direction: row;
-  }
-  .container .link {
-    width: 50vw;
-    height: 100vh;
-  }
-  .container .link.medico {
-    background: url("https://via.placeholder.com/1250/fec?text=Médico") center center no-repeat;
-  }
-  .container .link.paciente {
-    background: url("https://via.placeholder.com/1250/fce?text=Paciente") center center no-repeat;
-  }
+main .selecao-perfis {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
 }
 
 /*# sourceMappingURL=styles.css.map */
