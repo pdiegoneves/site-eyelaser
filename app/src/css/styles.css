@@ -47,6 +47,11 @@ h1, h2, h3, h4, h5, h6 {
     display: none !important;
   }
 }
+.is-hidden {
+  opacity: 0;
+  transition: 1.5s ease;
+}
+
 .link-perfil {
   position: absolute;
   cursor: pointer;
@@ -77,15 +82,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .link-perfil#link-paciente:hover ~ .perfil-card.paciente .img-perfil-card img {
-  transform: scale(1.3);
+  transform: scale(1.1);
   cursor: pointer;
   filter: grayscale(0);
 }
 
 .link-perfil#link-medico:hover ~ .perfil-card.medico .img-perfil-card img {
-  transform: scale(1.3);
+  transform: scale(1.1);
   cursor: pointer;
   filter: grayscale(0);
+}
+
+header.paciente_topo .paciente-menu-topo ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  height: 100%;
+}
+header.paciente_topo .paciente-menu-topo ul li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1B5E83;
+}
+
+.text-cta-hero span {
+  left: 0;
+  position: absolute;
+  width: 100%;
+  padding: 0 3rem;
 }
 
 .perfil-card {
@@ -162,7 +186,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta-hero-perfis {
-  background: linear-gradient(344.6deg, #85BCC1 15.31%, #00858F 91.93%);
+  position: relative;
+  background: linear-gradient(344.6deg, #01ACBE 15.31%, #00858F 91.93%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -5px 4px 20px rgba(0, 0, 0, 0.25);
   color: #fff;
   text-align: center;
@@ -187,17 +212,47 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header.paciente_topo {
-  background-color: red;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   height: 14vh;
   padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 5%;
+  min-width: 90%;
+  flex: 1;
+  z-index: 999;
+}
+
+.hero-banner {
+  margin-top: 14vh;
+  position: relative;
+  height: 86vh;
+  border: 2px solid #000;
+}
+.hero-banner img {
+  position: absolute;
+  max-height: 100%;
+}
+.hero-banner img.hero-banner-elipse {
+  z-index: 6;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 20%;
 }
 
 main .selecao-perfis {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   position: relative;
+}
+
+.pg-paciente {
+  max-width: 90%;
+  margin: 0 auto;
+  min-height: 100vh;
 }
 
 /*# sourceMappingURL=styles.css.map */

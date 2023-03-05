@@ -2,8 +2,11 @@ const BASEURL = 'http://127.0.0.1/eyelaser'
 
 const linkEntradaMedico = document.getElementById('link-medico')
 const linkEntradaPaciente = document.getElementById('link-paciente')
-const textoDinamicoEntrada = document.querySelector('.js-text-hero-dinamico')
 const ctaPerfisEntrada = document.querySelector('.js-cta-perfis-entrada')
+
+const textCtaHeroPadrao = document.querySelector('.text-cta-hero-padrao')
+const textCtaHeroPaciente = document.querySelector('.text-cta-hero-paciente')
+const textCtaHeroMedico = document.querySelector('.text-cta-hero-medico')
 
 linkEntradaMedico.addEventListener('click', (event) => {
   event.preventDefault()
@@ -16,14 +19,25 @@ linkEntradaPaciente.addEventListener('click', (event) => {
 })
 
 linkEntradaPaciente.addEventListener('mouseover', (event) => {
-  textoDinamicoEntrada.innerText = 'Tratamentos personalizados, seguros e eficazes para as necessidades de seus olhos.'
+  hideAllTextCtaHeroPerfis()
+  textCtaHeroPaciente.classList.remove('is-hidden')
 })
 linkEntradaMedico.addEventListener('mouseover', (event) => {
-  textoDinamicoEntrada.innerText = 'Junte-se a uma equipe de especialistas comprometidos com a excelência.'
+  hideAllTextCtaHeroPerfis()  
+  textCtaHeroMedico.classList.remove('is-hidden')
+
 })
 
 ctaPerfisEntrada.addEventListener('mouseover', (event) => {
-  textoDinamicoEntrada.innerText = 'Qual o seu perfil?'
+  hideAllTextCtaHeroPerfis()
+  textCtaHeroPadrao.classList.remove('is-hidden')
+
 })
+
+function hideAllTextCtaHeroPerfis() {
+  textCtaHeroPaciente.classList.add('is-hidden')
+  textCtaHeroMedico.classList.add('is-hidden')
+  textCtaHeroPadrao.classList.add('is-hidden')
+}
 
 

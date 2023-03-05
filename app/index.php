@@ -26,7 +26,11 @@
           <h3><b>Bem-Vindos</b> a um <b>novo Eyelaser</b></h3>
           <p><b>Nossa missão</b> é oferecer <b>o que há de melhor</b> em <b>cirurgia refrativa</b>, tratamento de <b>ceratocone</b> e da síndrome do <b>olho seco</b>, com profissionalismo, segurança, humanização, <b>tecnologia de ponta</b> e inovação.</p>
           <p>
-            <span class="js-text-hero-dinamico text-cta-hero"></span>
+            <span class="text-cta-hero">
+              <span class="text-cta-hero-padrao">Qual o Seu perfil?</span>
+              <span class="text-cta-hero-paciente is-hidden">Tratamentos personalizados, seguros e eficazes para as necessidades de seus olhos.</span>
+              <span class="text-cta-hero-medico is-hidden">Junte-se a uma equipe de especialistas comprometidos com a excelência.</span>
+            </span>
           </p>
         </div>
         <div id="link-medico" class="link-perfil"></div>

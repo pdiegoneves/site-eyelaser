@@ -11,8 +11,8 @@
     <nav class='paciente-menu-topo'>
       <ul>
         <li class="paciente-menu-topo-link"><a href="#">home</a></li>
-        <li class="paciente-menu-topo-link"><a href="#institucional">quem somos</a></li>
         <li class="paciente-menu-topo-link"><a href="#especialidades">especialidade</a></li>
+        <li class="paciente-menu-topo-link"><a href="#institucional">quem somos</a></li>
         <li class="paciente-menu-topo-link"><a href="#">convênios</a></li>
         <li class="paciente-menu-topo-link"><a href="#">contatos</a></li>
       </ul>
@@ -20,7 +20,14 @@
   </header>
   <main class='paciente-main'>
     <section class="dobra hero">
-
+      <div class="hero-banner">
+        <img class="hero-banner-cc" src="<?=BASEURL?>assets/images/banner/pacientes/cc.png" alt="">
+        <img class="hero-banner-elipse" src="<?=BASEURL?>assets/images/banner/pacientes/elipse.png" alt="">
+        <img class="hero-banner-modelo" src="<?=BASEURL?>assets/images/banner/pacientes/modelo.png" alt="">
+        <img class="hero-banner-raio-branco" src="<?=BASEURL?>assets/images/banner/pacientes/raio-branco.png" alt="">
+        <img class="hero-banner-raio-roxo" src="<?=BASEURL?>assets/images/banner/pacientes/raio-roxo.png" alt="">
+        <img class="hero-banner-raio-verde" src="<?=BASEURL?>assets/images/banner/pacientes/raio-verde.png" alt="">
+      </div>
     </section>
     <section class="dobra">
 
