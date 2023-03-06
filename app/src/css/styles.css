@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5, h6 {
 .link-perfil#link-medico {
   top: 0;
   right: 0;
+}
+
+.grid-item-especialidade-avatar {
+  width: 35%;
 }
 
 .img-perfil-card {
@@ -303,20 +307,38 @@ header.paciente_topo {
   width: 30%;
 }
 
+.grid-item-especialidade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  gap: 2rem;
+  padding: 3rem;
+}
 .grid-item-especialidade.refrativa {
-  min-height: 525px;
   background: url("http://127.0.0.1/eyelaser/app/assets/images/especialidades/bg-refrativa_mob.png");
   background-size: cover;
 }
 .grid-item-especialidade.ceratocone {
-  min-height: 525px;
   background: url("http://127.0.0.1/eyelaser/app/assets/images/especialidades/bg-ceratocone_mob.png");
   background-size: cover;
 }
 .grid-item-especialidade.olho-seco {
-  min-height: 525px;
   background: url("http://127.0.0.1/eyelaser/app/assets/images/especialidades/bg-olho-seco_mob.png");
   background-size: cover;
+}
+.grid-item-especialidade .grid-item-especialidade-title {
+  text-transform: uppercase;
+  color: #FEFEFE;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.grid-item-especialidade .grid-item-especialidade-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  color: #FEFEFE;
 }
 
 @media (width > 1281px) {
@@ -325,12 +347,10 @@ header.paciente_topo {
     background-size: cover;
   }
   .grid-item-especialidade.ceratocone {
-    min-height: 525px;
     background: url("http://127.0.0.1/eyelaser/app/assets/images/especialidades/bg-ceratocone_extra.png");
     background-size: cover;
   }
   .grid-item-especialidade.olho-seco {
-    min-height: 525px;
     background: url("http://127.0.0.1/eyelaser/app/assets/images/especialidades/bg-olho-seco_extra.png");
     background-size: cover;
   }
@@ -341,16 +361,57 @@ header.paciente_topo {
     background-size: cover;
   }
   .grid-item-especialidade.ceratocone {
-    min-height: 525px;
     background: url("http://127.0.0.1/eyelaser/app/assets/images/especialidades/bg-ceratocone_desk.png");
     background-size: cover;
   }
   .grid-item-especialidade.olho-seco {
-    min-height: 525px;
     background: url("http://127.0.0.1/eyelaser/app/assets/images/especialidades/bg-olho-seco_desk.png");
     background-size: cover;
   }
 }
+.grid-cta-midle-item {
+  position: relative;
+  min-height: 43vh;
+}
+.grid-cta-midle-item.text1 {
+  background-color: #0AC2BE;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  padding: 5% 10%;
+}
+.grid-cta-midle-item.text1 p {
+  width: 80%;
+}
+.grid-cta-midle-item.image {
+  background-color: #0AC2BE;
+}
+.grid-cta-midle-item.text2 {
+  color: #00858F;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  padding: 5% 0 0 10%;
+}
+.grid-cta-midle-item.text2 p {
+  width: 100%;
+}
+.grid-cta-midle-item.text3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+.grid-cta-midle-item.text3 span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 60%;
+  text-align: right;
+}
+.grid-cta-midle-item.text3 span p {
+  margin-bottom: 1rem;
+}
+
 main .selecao-perfis {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -368,6 +429,12 @@ main .selecao-perfis {
     grid-template-columns: 1fr;
   }
 }
+.grid-cta-midle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
 .pg-paciente {
   max-width: 90%;
   margin: 0 auto;
