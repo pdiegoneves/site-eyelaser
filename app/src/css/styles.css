@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 35%;
 }
 
-.grid-institucional-item-title {
+.grid-institucional-item-title, .grid-beneficios-item-title {
   font-size: 45px;
   font-family: "Source Sans Pro", sans-serif;
   color: #1E6D84;
@@ -202,6 +202,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 3rem;
 }
 
+.vicios-de-refracao-title {
+  background-color: #00858F;
+  text-align: center;
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 2rem;
+}
+
 .img-perfil-card {
   filter: greyscale(1);
 }
@@ -275,12 +285,12 @@ header.paciente_topo .paciente-menu-topo ul li a {
     line-height: 1rem;
   }
 }
-.grid-institucinal-item-desc {
+.grid-institucinal-item-desc, .grid-beneficios-item-desc {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   color: #2a2a2a;
 }
-.grid-institucinal-item-desc p {
+.grid-institucinal-item-desc p, .grid-beneficios-item-desc p {
   margin-bottom: 1em;
 }
 
@@ -336,6 +346,22 @@ header.paciente_topo .paciente-menu-topo ul li a {
 }
 .refrativas-desc p {
   margin-bottom: 1rem;
+}
+
+.grid-beneficios-title {
+  grid-column: 1/3;
+  height: 100%;
+  font-size: 45px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #1E6D84;
+  line-height: 0.9em;
+  letter-spacing: 0.1rem;
+}
+.grid-beneficios-title span {
+  font-weight: 400;
+}
+.grid-beneficios-title h3 {
+  font-weight: bold;
 }
 
 .perfil-card {
@@ -635,6 +661,15 @@ header.paciente_topo {
 .grid-item-vicios-de-refracao.miopia {
   background-color: #01ACBE;
 }
+.grid-item-vicios-de-refracao.hipermetropia {
+  background-color: #19A5AF;
+}
+.grid-item-vicios-de-refracao.astigmatismo {
+  background-color: #00858F;
+}
+.grid-item-vicios-de-refracao.presbiopia {
+  background-color: #046E7C;
+}
 
 main .selecao-perfis {
   display: grid;
@@ -722,6 +757,14 @@ main .selecao-perfis {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+}
+
+.grid-beneficios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+  gap: 2rem;
+  padding: 3rem;
 }
 
 .pg-paciente {

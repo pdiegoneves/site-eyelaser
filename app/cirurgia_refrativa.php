@@ -51,98 +51,83 @@
     </section>
     <section class="dobra vicios-de-refracao">
     <span class="identificador" id='vicios-de-refracao'></span>
+    <h2 class="vicios-de-refracao-title">Você tem algum desses vícios de refração?</h2>
     <div class="grid-vicios-de-refracao">
-      <div class="grid-item-vicios-de-refracao miopia">
+    <div class="grid-item-vicios-de-refracao miopia">
       <picture class="grid-item-vicios-de-refracao-avatar">
-              <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_miopia-extra.png">
-              <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_miopia-desk.png">
-              <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_miopia-tab.png">
-              <img id="avatar-miopia" src="<?=BASEURL?>assets/images//refrativas/vicios_de_refracao_miopia-mob.png" alt="Miopia" title="Miopia">
-          </picture>
+          <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_miopia-extra.png">
+          <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_miopia-desk.png">
+          <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_miopia-tab.png">
+          <img id="avatar-miopia" src="<?=BASEURL?>assets/images//refrativas/vicios_de_refracao_miopia-mob.png" alt="Miopia" title="Miopia">
+        </picture>
         <h3 class="grid-item-vicios-de-refracao-title">Miopia</h3>
         <p class="grid-item-vicios-de-refracao-text">Os raios luminosos são focalizados antes da retina, tornando a imagem de objetos distantes borrada; é possível enxergar objetos próximos.</p>
       </div>
-      <div class="grid-item-vicios-de-refracao ceratocone">
-        <img src="<?=BASEURL?>assets/images/especialidades/avatar-ceratocone.png" alt="" class="grid-item-vicios-de-refracao-avatar">
-        <h3 class="grid-item-vicios-de-refracao-title">Ceratocone</h3>
-        <p class="grid-item-vicios-de-refracao-text">Trata-se de uma doença ocular que altera a espessura e o formato da córnea, provocando uma distorção nas imagens que chegam ao olho.</p>
+      <div class="grid-item-vicios-de-refracao hipermetropia">
+        <picture class="grid-item-vicios-de-refracao-avatar">
+          <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_hipermetropia-extra.png">
+          <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_hipermetropia-desk.png">
+          <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_hipermetropia-tab.png">
+          <img id="avatar-hipermetropia" src="<?=BASEURL?>assets/images//refrativas/vicios_de_refracao_hipermetropia-mob.png" alt="Hipermetropia" title="Hipermetropia">
+        </picture>
+        <h3 class="grid-item-vicios-de-refracao-title">hipermetropia</h3>
+        <p class="grid-item-vicios-de-refracao-text">Os raios luminosos são focalizados depois da retina tornando as imagens de objetos próximos borradas; é possível enxergar objetos distantes.</p>
       </div>
-      <div class="grid-item-vicios-de-refracao olho-seco">
-        <img src="<?=BASEURL?>assets/images/especialidades/avatar-olho-seco.png" alt="" class="grid-item-vicios-de-refracao-avatar">
-        <h3 class="grid-item-vicios-de-refracao-title">Síndrome do Olho Seco</h3>
-        <p class="grid-item-vicios-de-refracao-text">Síndrome o ressecamento do olho causado pela redução da produção ou alteração da composição das lágrimas (filme lacrimal) pelas glândulas lacrimais.</p>
+      <div class="grid-item-vicios-de-refracao astigmatismo">
+        <picture class="grid-item-vicios-de-refracao-avatar">
+          <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_astigmatismo-extra.png">
+          <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_astigmatismo-desk.png">
+          <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_astigmatismo-tab.png">
+          <img id="avatar-astigmatismo" src="<?=BASEURL?>assets/images//refrativas/vicios_de_refracao_astigmatismo-mob.png" alt="Astigmatismo" title="Astigmatismo">
+        </picture>
+        <h3 class="grid-item-vicios-de-refracao-title">Astigmatismo</h3>
+        <p class="grid-item-vicios-de-refracao-text">Os raios luminosos convergem para pontos focais distintos comprometendo a qualidade da visão, tanto de objetos distantes quanto próximos.</p>
       </div>
-      <div class="grid-item-vicios-de-refracao olho-seco">
-        <img src="<?=BASEURL?>assets/images/especialidades/avatar-olho-seco.png" alt="" class="grid-item-vicios-de-refracao-avatar">
-        <h3 class="grid-item-vicios-de-refracao-title">Síndrome do Olho Seco</h3>
-        <p class="grid-item-vicios-de-refracao-text">Síndrome o ressecamento do olho causado pela redução da produção ou alteração da composição das lágrimas (filme lacrimal) pelas glândulas lacrimais.</p>
+      <div class="grid-item-vicios-de-refracao presbiopia">
+        <picture class="grid-item-vicios-de-refracao-avatar">
+          <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_presbiopia-extra.png">
+          <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_presbiopia-desk.png">
+          <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_presbiopia-tab.png">
+          <img id="avatar-prebiopia" src="<?=BASEURL?>assets/images//refrativas/vicios_de_refracao_presbiopia-mob.png" alt="Presbiopia" title="Presbiopia">
+        </picture>
+        <h3 class="grid-item-vicios-de-refracao-title">Presbiopia</h3>
+        <p class="grid-item-vicios-de-refracao-text">Condição visual que afeta a capacidade de focar objetos próximos, devido à perda de elasticidade do cristalino, comum em pessoas com mais de 40 anos.</p>
       </div>
     </div>
     </section>
+    <section class="dobra beneficios">
+    <span class="identificador" id='beneficios'></span>
+    <div class="grid-beneficios">
+      <div class='grid-beneficios-title'><span>Saiba quais os benefícios da</span><h3>Cirurgia Refrativa a Laser</h3></div>
+      <div class="grid-beneficios-item">
+        <h3 class="grid-beneficios-item-title">Correção dos<br>Problemas de Visão</h3>
+        <div class="grid-beneficios-item-desc">
+          <p>A cirurgia refrativa pode corrigir uma variedade de problemas de visão, incluindo miopia, hipermetropia, astigmatismo e presbiopia, permitindo que o paciente enxergue com mais clareza e nitidez.</p>
+        </div>
+      </div>
+      <div class="grid-beneficios-item">
+        <h3 class="grid-beneficios-item-title">Melhora na<br>Qualidade de Vida</h3>
+        <div class="grid-beneficios-item-desc">
+          <p>A correção da visão pode melhorar significativamente a qualidade de vida do paciente, permitindo que ele realize tarefas diárias sem depender de óculos ou lentes de contato.</p>
+        </div>
+      </div>
+      <div class="grid-beneficios-item">
+        <h3 class="grid-beneficios-item-title">Procedimento<br>seguro e eficaz</h3>
+        <div class="grid-beneficios-item-desc">
+          <p>As técnicas de cirurgia refrativa a laser são extremamente seguras e eficazes, com baiíxissimas taxas de complicações e excelentes resultados na correção de problemas de visão.</p>
+        </div>
+      </div>
+      <div class="grid-beneficios-item">
+        <h3 class="grid-beneficios-item-title">Rápida<br>recuperação</h3>
+        <div class="grid-beneficios-item-desc">
+          <p>A grande maioria dos pacientes pode retornar às atividades diárias normais dentro de alguns dias após a cirurgia refrativa, com poucas restrições.</p>
+        </div>
+      </div>
 
+    </section>
+    
 <br><br><br><hr><br><br><br>
 
-    <section class="dobra grid-cta-midle">
-      <div class="grid-cta-midle-item text1"><p>Cansado de depender de lentes para enxergar a vida com nitidez?</p></div>
-      <div class="grid-cta-midle-item image">
-        <picture>
-          <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/suiterefrativa/suite_refrativa_extra.png">
-          <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/suiterefrativa/suite_refrativa_desk.png">
-          <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/suiterefrativa/suite_refrativa_tab.png">
-          <img src="<?=BASEURL?>assets/images/suiterefrativa/suite_refrativa_mob.png" alt="Suíte Refrativa">
-        </picture>
-      </div>
-      <div class="grid-cta-midle-item text2"><p>O EyeLaser é o único local em Alagoas que realiza cirurgia refrativa à laser.</p></div>
-      <div class="grid-cta-midle-item text3">
-        <span>
-          <p>Nossa Suíte Refrativa é que há de mais moderno em todo o planeta.</p>
-          <p>Altíssimo nível de segurança e precisão, com excelentes resultados.</p>
-        </span>
-      </div>
-    </section>
-    <section class="dobra institucional">
-    <span class="identificador" id='institucional'></span>
-    <div class="grid-institucional">
-      <div class="grid-institucional-item">
-        <h3 class="grid-institucional-item-title">Quem Somos</h3>
-        <div class="grid-institucinal-item-desc">
-          <p>Localizados em Maceió, Alagoas, desde 2009, somos referência no Brasil e no mundo em cirurgias refrativas à laser.</p>
-          <p>Oferecemos o que há de melhor em tecnologia e inovação para garantir a segurança e precisão em nossos procedimentos.</p>
-          <p>Contamos com excelentes profissionais e uma equipe médica da mais alta expertise, visando também no atendimento humanizado.</p>
-        </div>
-      </div>
-      <div class="grid-institucional-item">
-        <h3 class="grid-institucional-item-title">Missão</h3>
-        <div class="grid-institucinal-item-desc">
-          <p>Oferecer o que hã de melhor em cirurgia refrativa (miopia, hipermetropia e astigmatismo), ceratocone e tratamento da síndrome do olho seco com segurança, humanização, tecnologia de ponta e inovação.</p>
-        </div>
-      </div>
-      <div class="grid-institucional-item">
-        <h3 class="grid-institucional-item-title">Visão</h3>
-        <div class="grid-institucinal-item-desc">
-          <p>Ser referência em tratamento ocular a laser com tecnologia de última geração.</p>
-        </div>
-      </div>
-      <div class="grid-institucional-item">
-        <h3 class="grid-institucional-item-title">Propósito</h3>
-        <div class="grid-institucinal-item-desc">
-          <p>Proporcionar segurança e atendimento de excelência a pacientes e ofatalmologistas através de um ambiente confortável, humanizado e com o que há de mais moderno em tecnologia.</p>
-        </div>
-      </div>
-      <div class="grid-institucional-item valores">
-        <h3 class="grid-institucional-item-title">Valores</h3>
-        <div class="grid-institucinal-item-desc">
-          <ul>
-            <li>Desenvolvimento profissional;</li>
-            <li>Valorizaçtão do ser humano (equipe e pacientes)</li>
-            <li>Ética nas relações;</li>
-            <li>Parcerias apoiadas em princípios.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    </section>
     <section class="dobra depoimentos">
     <span class="identificador" id='depoimentos'></span>
     <div class="depoimentos-container">
