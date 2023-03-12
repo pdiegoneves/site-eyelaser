@@ -172,6 +172,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 32px;
 }
 
+.refrativas-title {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
 .img-perfil-card {
   filter: greyscale(1);
 }
