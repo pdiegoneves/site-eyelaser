@@ -83,27 +83,32 @@
         </div>
       </div>
       <div class="grid-institucional-item">
-        <h3 class="grid-institucional-item-title"></h3>
+        <h3 class="grid-institucional-item-title">Missão</h3>
         <div class="grid-institucinal-item-desc">
-          <p></p>
+          <p>Oferecer o que hã de melhor em cirurgia refrativa (miopia, hipermetropia e astigmatismo), ceratocone e tratamento da síndrome do olho seco com segurança, humanização, tecnologia de ponta e inovação.</p>
         </div>
       </div>
       <div class="grid-institucional-item">
-        <h3 class="grid-institucional-item-title"></h3>
+        <h3 class="grid-institucional-item-title">Visão</h3>
         <div class="grid-institucinal-item-desc">
-          <p></p>
+          <p>Ser referência em tratamento ocular a laser com tecnologia de última geração.</p>
         </div>
       </div>
       <div class="grid-institucional-item">
-        <h3 class="grid-institucional-item-title"></h3>
+        <h3 class="grid-institucional-item-title">Propósito</h3>
         <div class="grid-institucinal-item-desc">
-          <p></p>
+          <p>Proporcionar segurança e atendimento de excelência a pacientes e ofatalmologistas através de um ambiente confortável, humanizado e com o que há de mais moderno em tecnologia.</p>
         </div>
       </div>
-      <div class="grid-institucional-item">
-        <h3 class="grid-institucional-item-title"></h3>
+      <div class="grid-institucional-item valores">
+        <h3 class="grid-institucional-item-title">Valores</h3>
         <div class="grid-institucinal-item-desc">
-          <p></p>
+          <ul>
+            <li>Desenvolvimento profissional;</li>
+            <li>Valorizaçtão do ser humano (equipe e pacientes)</li>
+            <li>Ética nas relações;</li>
+            <li>Parcerias apoiadas em princípios.</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -111,6 +116,15 @@
     </section>
     <section class="dobra depoimentos">
     <span class="identificador" id='depoimentos'></span>
+    <div class="depoimentos-container">
+      <h2 class="depoimentos-title">Depoimentos</h2>
+      <div class="card-depoimento">
+        <div class="depoimentos-frase">Sempre ouvimos de nossos pacientes que realizar a cirurgia refrativa foi a melhor decisão de suas vidas. Isso nos deixa tão emocionados, que gostaríamos de compartilhar com você.</div>
+        <div class="depoimentos-video">
+          <img src="<?=BASEURL?>assets/images/depoimentos/player.png" alt="">
+        </div>
+      </div>
+    </div>
     </section>
 
   </main>
