@@ -1,0 +1,25 @@
+.question-sumary
+  color: #0AC2BE
+  size: 24px
+  font-weight: bold
+  font-family: 'Source Sans Pro', sans-serif
+  position: relative
+  &::after
+    position: absolute
+    display: inline-block
+    width: 25px
+    height: 25px  
+    content: "▶"
+    right: 1em
+    background-color: #F6FDFB
+    border-radius: 50%
+    text-align: center
+    transition: transform 200ms ease-out
+
+.question[open]
+  .question-sumary
+    margin-bottom: 1rem
+    &::after
+      transform: rotate(90deg)
+      transition: transform 200ms ease-in
+

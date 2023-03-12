@@ -1,0 +1,15 @@
+.question
+  background-color: #fff
+  padding: 1rem
+  // border: 2px solid #F6FDFB
+  border: 2px solid #0AC2BE
+  border-radius: 10px
+  &[open] > *:not(summary) 
+    animation: details-show 200ms ease-in-out
+
+
+@keyframes details-show 
+  from 
+    opacity:0
+    transform: var(--details-translate, translateY(-0.5em))
+

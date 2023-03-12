@@ -126,7 +126,21 @@
       </div>
     </div>
     </section>
-
+    <section class="dobra duvidas-frequentes">
+      <h2 class="duvidas-frequentes-title">
+        Dúvidas Frequentes
+      </h2>
+      <div class="duvidas-frequentes-questions">
+      <details class="question">
+        <summary class="question-sumary">Epcot Center</summary>
+        <p class="question-response">Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+      </details>
+      <details class="question">
+        <summary class="question-sumary">Epcot Center</summary>
+        <p class="question-response">Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+      </details>
+      </div>
+    </section>
   </main>
 
 </div>
