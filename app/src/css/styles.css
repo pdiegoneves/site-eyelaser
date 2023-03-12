@@ -183,6 +183,25 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.7rem;
 }
 
+.grid-item-vicios-de-refracao-title {
+  font-size: 32px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fefefe;
+  font-weight: 900;
+  margin: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.grid-item-vicios-de-refracao-text {
+  color: #fefefe;
+  font-size: 21px;
+  text-align: center;
+  width: 75%;
+  margin-bottom: 3rem;
+}
+
 .img-perfil-card {
   filter: greyscale(1);
 }
@@ -608,6 +627,15 @@ header.paciente_topo {
   gap: 1rem;
 }
 
+.grid-item-vicios-de-refracao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid-item-vicios-de-refracao.miopia {
+  background-color: #01ACBE;
+}
+
 main .selecao-perfis {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -688,6 +716,12 @@ main .selecao-perfis {
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+}
+
+.grid-vicios-de-refracao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .pg-paciente {

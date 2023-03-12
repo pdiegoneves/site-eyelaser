@@ -52,10 +52,15 @@
     <section class="dobra vicios-de-refracao">
     <span class="identificador" id='vicios-de-refracao'></span>
     <div class="grid-vicios-de-refracao">
-      <div class="grid-item-vicios-de-refracao">
-        <img src="<?=BASEURL?>assets/images/especialidades/avatar-refrativa.png" alt="Cirurgia Refrativa" class="grid-item-vicios-de-refracao-avatar">
-        <h3 class="grid-item-vicios-de-refracao-title">Cirurgias Refrativas</h3>
-        <p class="grid-item-vicios-de-refracao-text">São procedimentos cirúrgicos que visam a mudança da refração dos olhos, resultando na correção dos vícios de refração.</p>
+      <div class="grid-item-vicios-de-refracao miopia">
+      <picture class="grid-item-vicios-de-refracao-avatar">
+              <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_miopia-extra.png">
+              <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_miopia-desk.png">
+              <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_miopia-tab.png">
+              <img id="avatar-miopia" src="<?=BASEURL?>assets/images//refrativas/vicios_de_refracao_miopia-mob.png" alt="Miopia" title="Miopia">
+          </picture>
+        <h3 class="grid-item-vicios-de-refracao-title">Miopia</h3>
+        <p class="grid-item-vicios-de-refracao-text">Os raios luminosos são focalizados antes da retina, tornando a imagem de objetos distantes borrada; é possível enxergar objetos próximos.</p>
       </div>
       <div class="grid-item-vicios-de-refracao ceratocone">
         <img src="<?=BASEURL?>assets/images/especialidades/avatar-ceratocone.png" alt="" class="grid-item-vicios-de-refracao-avatar">
