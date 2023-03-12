@@ -1,17 +1,24 @@
 .grid-cta-midle-item
   position: relative
-  min-height: 43vh
+  min-height: 40vh
   &.text1
     background-color: #0AC2BE
     color: #fff
     font-family: 'Source Sans Pro', sans-serif
-    font-size: 55px
+    font-size: 50px
     font-weight: bold
     padding: 5% 10%
     p
       width: 80%
   &.image
     background-color: #0AC2BE
+    img
+      position: absolute
+      width: 40vw
+      bottom: -38%
+      z-index: 1
+      object-fit: cover
+      overflow: visible
   &.text2
     color: #00858F
     font-family: 'Source Sans Pro', sans-serif
@@ -27,8 +34,8 @@
     background-color: #F7F7F7
     span
       position: absolute
-      right: 0
-      bottom: 0
+      right: 2rem
+      bottom: 1rem
       width: 60%
       text-align: right
       p

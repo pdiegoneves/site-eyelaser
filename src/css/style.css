@@ -71,13 +71,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 35%;
 }
 
-.grid-institucional-item-title {
-  font-size: 45px;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #1E6D84;
-  font-weight: bold;
-}
-
 .img-perfil-card {
   filter: greyscale(1);
 }
@@ -378,13 +371,13 @@ header.paciente_topo {
 }
 .grid-cta-midle-item {
   position: relative;
-  min-height: 40vh;
+  min-height: 43vh;
 }
 .grid-cta-midle-item.text1 {
   background-color: #0AC2BE;
   color: #fff;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 50px;
+  font-size: 55px;
   font-weight: bold;
   padding: 5% 10%;
 }
@@ -393,14 +386,7 @@ header.paciente_topo {
 }
 .grid-cta-midle-item.image {
   background-color: #0AC2BE;
-}
-.grid-cta-midle-item.image img {
-  position: absolute;
-  width: 40vw;
-  bottom: -38%;
-  z-index: 1;
-  object-fit: cover;
-  overflow: visible;
+  color: orangered;
 }
 .grid-cta-midle-item.text2 {
   color: #00858F;
@@ -420,8 +406,8 @@ header.paciente_topo {
 }
 .grid-cta-midle-item.text3 span {
   position: absolute;
-  right: 2rem;
-  bottom: 1rem;
+  right: 0;
+  bottom: 0;
   width: 60%;
   text-align: right;
 }
@@ -452,15 +438,6 @@ main .selecao-perfis {
   grid-template-rows: 1fr 1fr;
 }
 
-.grid-institucional {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  background-color: #fff;
-  padding: 3rem;
-  position: relative;
-  gap: 1.5rem;
-}
-
 .pg-paciente {
   max-width: 90%;
   margin: 0 auto;
@@ -471,4 +448,4 @@ main .selecao-perfis {
   position: relative;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style.css.map */

@@ -73,6 +73,40 @@
     </section>
     <section class="dobra institucional">
     <span class="identificador" id='institucional'></span>
+    <div class="grid-institucional">
+      <div class="grid-institucional-item">
+        <h3 class="grid-institucional-item-title">Quem Somos</h3>
+        <div class="grid-institucinal-item-desc">
+          <p>Localizados em Maceió, Alagoas, desde 2009, somos referência no Brasil e no mundo em cirurgias refrativas à laser.</p>
+          <p>Oferecemos o que há de melhor em tecnologia e inovação para garantir a segurança e precisão em nossos procedimentos.</p>
+          <p>Contamos com excelentes profissionais e uma equipe médica da mais alta expertise, visando também no atendimento humanizado.</p>
+        </div>
+      </div>
+      <div class="grid-institucional-item">
+        <h3 class="grid-institucional-item-title"></h3>
+        <div class="grid-institucinal-item-desc">
+          <p></p>
+        </div>
+      </div>
+      <div class="grid-institucional-item">
+        <h3 class="grid-institucional-item-title"></h3>
+        <div class="grid-institucinal-item-desc">
+          <p></p>
+        </div>
+      </div>
+      <div class="grid-institucional-item">
+        <h3 class="grid-institucional-item-title"></h3>
+        <div class="grid-institucinal-item-desc">
+          <p></p>
+        </div>
+      </div>
+      <div class="grid-institucional-item">
+        <h3 class="grid-institucional-item-title"></h3>
+        <div class="grid-institucinal-item-desc">
+          <p></p>
+        </div>
+      </div>
+    </div>
 
     </section>
     <section class="dobra depoimentos">
