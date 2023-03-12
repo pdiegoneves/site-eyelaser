@@ -49,30 +49,34 @@
 
       </div>
     </section>
-
-<br><br><br>
-    <hr>
-    <br><br><br>
-
-    <section class="dobra">
-    <span class="identificador" id='especialidades'></span>
-    <div class="grid-especialidades">
-      <div class="grid-item-especialidade refrativa js-link-cirurgia-refrativa">
-        <img src="<?=BASEURL?>assets/images/especialidades/avatar-refrativa.png" alt="Cirurgia Refrativa" class="grid-item-especialidade-avatar">
-        <h3 class="grid-item-especialidade-title">Cirurgias Refrativas</h3>
-        <p class="grid-item-especialidade-text">São procedimentos cirúrgicos que visam a mudança da refração dos olhos, resultando na correção dos vícios de refração.</p>
+    <section class="dobra vicios-de-refracao">
+    <span class="identificador" id='vicios-de-refracao'></span>
+    <div class="grid-vicios-de-refracao">
+      <div class="grid-item-vicios-de-refracao">
+        <img src="<?=BASEURL?>assets/images/especialidades/avatar-refrativa.png" alt="Cirurgia Refrativa" class="grid-item-vicios-de-refracao-avatar">
+        <h3 class="grid-item-vicios-de-refracao-title">Cirurgias Refrativas</h3>
+        <p class="grid-item-vicios-de-refracao-text">São procedimentos cirúrgicos que visam a mudança da refração dos olhos, resultando na correção dos vícios de refração.</p>
       </div>
-      <div class="grid-item-especialidade ceratocone">
-        <img src="<?=BASEURL?>assets/images/especialidades/avatar-ceratocone.png" alt="" class="grid-item-especialidade-avatar">
-        <h3 class="grid-item-especialidade-title">Ceratocone</h3>
-        <p class="grid-item-especialidade-text">Trata-se de uma doença ocular que altera a espessura e o formato da córnea, provocando uma distorção nas imagens que chegam ao olho.</p>
+      <div class="grid-item-vicios-de-refracao ceratocone">
+        <img src="<?=BASEURL?>assets/images/especialidades/avatar-ceratocone.png" alt="" class="grid-item-vicios-de-refracao-avatar">
+        <h3 class="grid-item-vicios-de-refracao-title">Ceratocone</h3>
+        <p class="grid-item-vicios-de-refracao-text">Trata-se de uma doença ocular que altera a espessura e o formato da córnea, provocando uma distorção nas imagens que chegam ao olho.</p>
       </div>
-      <div class="grid-item-especialidade olho-seco">
-        <img src="<?=BASEURL?>assets/images/especialidades/avatar-olho-seco.png" alt="" class="grid-item-especialidade-avatar">
-        <h3 class="grid-item-especialidade-title">Síndrome do Olho Seco</h3>
-        <p class="grid-item-especialidade-text">Síndrome o ressecamento do olho causado pela redução da produção ou alteração da composição das lágrimas (filme lacrimal) pelas glândulas lacrimais.</p>
+      <div class="grid-item-vicios-de-refracao olho-seco">
+        <img src="<?=BASEURL?>assets/images/especialidades/avatar-olho-seco.png" alt="" class="grid-item-vicios-de-refracao-avatar">
+        <h3 class="grid-item-vicios-de-refracao-title">Síndrome do Olho Seco</h3>
+        <p class="grid-item-vicios-de-refracao-text">Síndrome o ressecamento do olho causado pela redução da produção ou alteração da composição das lágrimas (filme lacrimal) pelas glândulas lacrimais.</p>
+      </div>
+      <div class="grid-item-vicios-de-refracao olho-seco">
+        <img src="<?=BASEURL?>assets/images/especialidades/avatar-olho-seco.png" alt="" class="grid-item-vicios-de-refracao-avatar">
+        <h3 class="grid-item-vicios-de-refracao-title">Síndrome do Olho Seco</h3>
+        <p class="grid-item-vicios-de-refracao-text">Síndrome o ressecamento do olho causado pela redução da produção ou alteração da composição das lágrimas (filme lacrimal) pelas glândulas lacrimais.</p>
       </div>
     </div>
+    </section>
+
+<br><br><br><hr><br><br><br>
+
     <section class="dobra grid-cta-midle">
       <div class="grid-cta-midle-item text1"><p>Cansado de depender de lentes para enxergar a vida com nitidez?</p></div>
       <div class="grid-cta-midle-item image">

@@ -170,12 +170,17 @@ h1, h2, h3, h4, h5, h6 {
 .refrativa-initial-text {
   font-weight: bold;
   font-size: 32px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: -0.4rem;
+  letter-spacing: 0.4rem;
 }
 
 .refrativas-title {
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 45px;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.7rem;
 }
 
 .img-perfil-card {
@@ -301,6 +306,17 @@ header.paciente_topo .paciente-menu-topo ul li a {
 
 .contatos-contatos {
   margin-left: 2rem;
+}
+
+.refrativas-desc {
+  color: #FEFEFE;
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  width: 75%;
+  text-align: center;
+}
+.refrativas-desc p {
+  margin-bottom: 1rem;
 }
 
 .perfil-card {

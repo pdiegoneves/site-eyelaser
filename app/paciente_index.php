@@ -34,7 +34,7 @@
         <img class="hero-banner-raio-verde" src="<?=BASEURL?>assets/images/banner/pacientes/raio-verde.png" alt="">
       </div>
     </section>
-    <section class="dobra">
+    <section class="dobra especialidades">
     <span class="identificador" id='especialidades'></span>
     <div class="grid-especialidades">
       <div class="grid-item-especialidade refrativa js-link-cirurgia-refrativa">
@@ -53,6 +53,7 @@
         <p class="grid-item-especialidade-text">Síndrome o ressecamento do olho causado pela redução da produção ou alteração da composição das lágrimas (filme lacrimal) pelas glândulas lacrimais.</p>
       </div>
     </div>
+    </section>
     <section class="dobra grid-cta-midle">
       <div class="grid-cta-midle-item text1"><p>Cansado de depender de lentes para enxergar a vida com nitidez?</p></div>
       <div class="grid-cta-midle-item image">
