@@ -167,6 +167,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 19px;
 }
 
+.refrativa-initial-text {
+  font-weight: bold;
+  font-size: 32px;
+}
+
 .img-perfil-card {
   filter: greyscale(1);
 }
@@ -221,15 +226,18 @@ header.paciente_topo .paciente-menu-topo ul li a {
 }
 .hero-banner-title .bold {
   font-weight: 700;
-  font-size: 4vw;
+  font-size: 3.8vw;
 }
 .hero-banner-title .semi-bold {
   font-weight: 600;
-  font-size: 3vw;
+  font-size: 2.8vw;
 }
 .hero-banner-title .extra-bold {
   font-weight: 900;
-  font-size: 5.2vw;
+  font-size: 5vw;
+}
+.hero-banner-title.refrativa {
+  line-height: 3rem;
 }
 
 @media (width < 768px) {
@@ -464,6 +472,7 @@ header.paciente_topo {
   flex: 1;
   gap: 2rem;
   padding: 3rem;
+  cursor: pointer;
 }
 .grid-item-especialidade.refrativa {
   background: url("http://127.0.0.1/eyelaser/app/assets/images/especialidades/bg-refrativa_mob.png");
@@ -648,6 +657,15 @@ main .selecao-perfis {
   background-color: #1E6D84;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+}
+
+.dobra.refrativa {
+  background-color: #19A5AF;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
 }
 
 .pg-paciente {

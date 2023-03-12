@@ -21,19 +21,39 @@
   <main class='paciente-main'>
     <section class="dobra hero">
       <div class="hero-banner">
-        <h2 class="hero-banner-title">
-          <span class="bold">seu<br>mundo</span><br>
-          <span class="semi-bold">com um</span><br>
-          <span class="extra-bold">novo<br>olhar</span>
+        <h2 class="hero-banner-title refrativa">
+          <span class="semi-bold">Você já<br>imaginou</span><br>
+          <span class="extra-bold">sua vida</span><br>
+          <span class="extra-bold">livre dos<br>óculos?</span>
         </h2>
         <img class="hero-banner-cc" src="<?=BASEURL?>assets/images/banner/pacientes/cc.png" alt="">
         <img class="hero-banner-elipse" src="<?=BASEURL?>assets/images/banner/pacientes/elipse.png" alt="">
-        <img class="hero-banner-modelo" src="<?=BASEURL?>assets/images/banner/pacientes/modelo.png" alt="">
+        <img class="hero-banner-modelo" src="<?=BASEURL?>assets/images/banner/refrativa/modelo.png" alt="">
         <img class="hero-banner-raio-branco" src="<?=BASEURL?>assets/images/banner/pacientes/raio-branco.png" alt="">
         <img class="hero-banner-raio-roxo" src="<?=BASEURL?>assets/images/banner/pacientes/raio-roxo.png" alt="">
         <img class="hero-banner-raio-verde" src="<?=BASEURL?>assets/images/banner/pacientes/raio-verde.png" alt="">
       </div>
     </section>
+    <section class="dobra refrativa">
+      <span class="identificador" id='refrativa'></span>
+      <span class="refrativa-initial-text">Você já conhece as</span>
+      <h1 class="refrativas-title">Cirurgias Refrativa a Laser?</h1>
+
+      <div class="refrativas-desc">
+        <p>
+          São procedimentos cirúrgicos que visam a mudança da refração dos olhos, resultando na correção dos vícios de refração.
+        </p>
+        <p>
+          Tem altíssimo nível de segurança e precisão, excelentes resultados corrigindo miopia, hipermetropia, astigmatismo e presbiopia.
+        </p>
+
+      </div>
+    </section>
+
+<br><br><br>
+    <hr>
+    <br><br><br>
+
     <section class="dobra">
     <span class="identificador" id='especialidades'></span>
     <div class="grid-especialidades">
@@ -169,7 +189,6 @@
       </div>
     </footer>
 </div>
-<script src='<?=BASEURL?>src/js/paciente-index.js'></script>
 
 <?php
     require_once('src/includes/footer.php');

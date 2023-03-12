@@ -54,6 +54,8 @@
     </section>
 </main>
 </div>
+<script src='<?=BASEURL?>src/js/index.js'></script>
+
 <?php
     require_once('src/includes/footer.php');
 ?>
