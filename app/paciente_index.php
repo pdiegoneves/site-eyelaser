@@ -14,7 +14,7 @@
         <li class="paciente-menu-topo-link"><a href="#especialidades">especialidades</a></li>
         <li class="paciente-menu-topo-link"><a href="#institucional">quem somos</a></li>
         <li class="paciente-menu-topo-link"><a href="#">convênios</a></li>
-        <li class="paciente-menu-topo-link"><a href="#">contatos</a></li>
+        <li class="paciente-menu-topo-link"><a href="#contatos">contatos</a></li>
       </ul>
     </nav>
   </header>
@@ -37,7 +37,7 @@
     <section class="dobra">
     <span class="identificador" id='especialidades'></span>
     <div class="grid-especialidades">
-      <div class="grid-item-especialidade refrativa">
+      <div class="grid-item-especialidade refrativa js-link-cirurgia-refrativa">
         <img src="<?=BASEURL?>assets/images/especialidades/avatar-refrativa.png" alt="Cirurgia Refrativa" class="grid-item-especialidade-avatar">
         <h3 class="grid-item-especialidade-title">Cirurgias Refrativas</h3>
         <p class="grid-item-especialidade-text">São procedimentos cirúrgicos que visam a mudança da refração dos olhos, resultando na correção dos vícios de refração.</p>
@@ -127,6 +127,7 @@
     </div>
     </section>
     <section class="dobra duvidas-frequentes">
+    <span class="identificador" id='duvidas-frequentes'></span>
       <h2 class="duvidas-frequentes-title">
         Dúvidas Frequentes
       </h2>
@@ -141,8 +142,32 @@
       </details>
       </div>
     </section>
+    
   </main>
+  <footer class="dobra contatos">
+      <span class="identificador" id='contatos'></span>
+      <div class="grid-contatos">
+        <div class="contatos-localizaca">
+          <h3 class="contatos-localizacao-title">Como chegar</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.3156454710834!2d-35.71920374621664!3d-9.64902304060991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x70145bde6e2222f%3A0x410df98722292f52!2sEYE%20LASER%20CENTER!5e0!3m2!1spt-BR!2sbr!4v1678643282292!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <button class='localizacao-zap'>Receber mapa por Whatsapp</button>
+        </div>
+        <nav class='contatos-menu'>
+          <h3 class="contatos-menu-title">Menu</h3>
+      <ul>
+        <li class="contatos-menu-link"><a href="#">home</a></li>
+        <li class="contatos-menu-link"><a href="#especialidades">especialidades</a></li>
+        <li class="contatos-menu-link"><a href="#institucional">quem somos</a></li>
+        <li class="contatos-menu-link"><a href="#">convênios</a></li>
+        <li class="contatos-menu-link"><a href="#contatos">contatos</a></li>
+      </ul>
+    </nav>
+        <div class="contatos-contatos">
+        <h3 class="contatos-menu-title">Contatos</h3>
 
+        </div>
+      </div>
+    </footer>
 </div>
 
 <?php
