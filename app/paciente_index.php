@@ -121,6 +121,7 @@
       <h2 class="depoimentos-title">Depoimentos</h2>
       <div class="depoimentos-frase">Sempre ouvimos de nossos pacientes que realizar a cirurgia refrativa foi a melhor decisão de suas vidas. Isso nos deixa tão emocionados, que gostaríamos de compartilhar com você.</div>
       <div class="depoimentos-card">
+        
         <div class="depoimentos-card-video">
           <div class="player-container">
             <div class="player">
