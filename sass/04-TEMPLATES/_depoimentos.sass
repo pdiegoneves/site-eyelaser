@@ -1,3 +1,4 @@
+@import '../00-CORE/_variaveis'
 .dobra.depoimentos
   background-color: #0AC2BE
   display: flex
@@ -9,6 +10,7 @@
     flex-direction: column
     justify-content: center
     align-items: center
+    position: relative
     .depoimentos-title
       text-align: center
       font-family: 'Source Sans Pro', sans-serif
@@ -16,5 +18,27 @@
       font-weight: bold
       color: #fff
       margin-bottom: 1rem
-
+    .left, .right
+      width: 70px
+      height: 70px
+      position: absolute
+      top: 35%
+      cursor: pointer
+      transition: all 0.2s ease 50ms
+    .left
+      background: url($baseurl + 'app/assets/images/depoimentos/arrow-left.png') no-repeat
+      background-size: contain
+      left: 15%
+      &:hover
+        background: url($baseurl + 'app/assets/images/depoimentos/arrow-left-active.png') no-repeat
+        background-size: contain
+        
+    .right
+      background: url($baseurl + 'app/assets/images/depoimentos/arrow-right.png') no-repeat
+      background-size: contain
+      right: 15%
+      &:hover
+        background: url($baseurl + 'app/assets/images/depoimentos/arrow-right-active.png') no-repeat
+        background-size: contain
+        
 

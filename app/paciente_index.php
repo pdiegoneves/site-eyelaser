@@ -120,8 +120,8 @@
     <div class="depoimentos-container">
       <h2 class="depoimentos-title">Depoimentos</h2>
       <div class="depoimentos-frase">Sempre ouvimos de nossos pacientes que realizar a cirurgia refrativa foi a melhor decisão de suas vidas. Isso nos deixa tão emocionados, que gostaríamos de compartilhar com você.</div>
+      <div class="left"></div>
       <div class="depoimentos-card">
-        
         <div class="depoimentos-card-video">
           <div class="player-container">
             <div class="player">
@@ -129,12 +129,14 @@
               <img src="<?=BASEURL?>assets/images/depoimentos/play.png" alt="" class="play-button">
             </div>
           </div>
-          <span class="depoimentos-card-nome">Fulana de Assis</span>
+          <p class="depoimentos-card-nome">Fulana de Assis</p>
         </div>
         <div class="depoimentos-card-frase">
           <p>Fiquei extretamente satisfeita com toda a experiência de realizar o sonho de minha vida. Agora sou independente das lentes!!!</p>
         </div>
       </div>
+      <div class="right"></div>
+
     </div>
     </section>
     <section class="dobra duvidas-frequentes">
