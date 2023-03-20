@@ -1,5 +1,6 @@
+@import '../00-CORE/_variaveis'
 .question-sumary
-  color: #0AC2BE
+  color: #046E7C
   size: 24px
   font-weight: bold
   font-family: 'Source Sans Pro', sans-serif
@@ -7,14 +8,18 @@
   &::after
     position: absolute
     display: inline-block
-    width: 25px
-    height: 25px  
-    content: "▶"
+    width: 55px
+    height: 55px
+    content: ""
+    background: url($baseurl + 'app/assets/images/questions/arrow-question-close.png') no-repeat
+    background-size: contain
     right: 1em
     background-color: #F6FDFB
     border-radius: 50%
     text-align: center
     transition: transform 200ms ease-out
+    box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.06)
+
 
 .question[open]
   .question-sumary
@@ -22,4 +27,4 @@
     &::after
       transform: rotate(90deg)
       transition: transform 200ms ease-in
-
+      background: url($baseurl + 'app/assets/images/questions/arrow-question-open.png') no-repeat
