@@ -4,9 +4,9 @@
 <div class="pg-paciente">
   <header class="paciente_topo">
     <picture class="logo">
-      <source media="(min-width: 1024)" srcset="<?=BASEURL?>assets/images/logo/logo_desk.png" />
-      <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/logo/logo_tab.png" />
-      <img src="<?=BASEURL?>assets/images/logo/logo_mob.png" alt="Logomarca eyelaser center">
+      <source media="(min-width: 1024)" srcset="<?=BASEURL?>assets/images/logo/logo_desk.webp" />
+      <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/logo/logo_tab.webp" />
+      <img src="<?=BASEURL?>assets/images/logo/logo_mob.webp" alt="Logomarca eyelaser center">
     </picture>
     <nav class='paciente-menu-topo'>
       <ul>
@@ -26,12 +26,12 @@
           <span class="extra-bold">sua vida</span><br>
           <span class="extra-bold">livre dos<br>óculos?</span>
         </h2>
-        <img class="hero-banner-cc" src="<?=BASEURL?>assets/images/banner/pacientes/cc.png" alt="">
-        <img class="hero-banner-elipse" src="<?=BASEURL?>assets/images/banner/pacientes/elipse.png" alt="">
-        <img class="hero-banner-modelo" src="<?=BASEURL?>assets/images/banner/refrativa/modelo.png" alt="">
-        <img class="hero-banner-raio-branco" src="<?=BASEURL?>assets/images/banner/pacientes/raio-branco.png" alt="">
-        <img class="hero-banner-raio-roxo" src="<?=BASEURL?>assets/images/banner/pacientes/raio-roxo.png" alt="">
-        <img class="hero-banner-raio-verde" src="<?=BASEURL?>assets/images/banner/pacientes/raio-verde.png" alt="">
+        <img class="hero-banner-cc" src="<?=BASEURL?>assets/images/banner/pacientes/cc.webp" alt="">
+        <img class="hero-banner-elipse" src="<?=BASEURL?>assets/images/banner/pacientes/elipse.webp" alt="">
+        <img class="hero-banner-modelo" src="<?=BASEURL?>assets/images/banner/refrativa/modelo.webp" alt="">
+        <img class="hero-banner-raio-branco" src="<?=BASEURL?>assets/images/banner/pacientes/raio-branco.webp" alt="">
+        <img class="hero-banner-raio-roxo" src="<?=BASEURL?>assets/images/banner/pacientes/raio-roxo.webp" alt="">
+        <img class="hero-banner-raio-verde" src="<?=BASEURL?>assets/images/banner/pacientes/raio-verde.webp" alt="">
       </div>
     </section>
     <section class="dobra refrativa">
@@ -55,40 +55,40 @@
     <div class="grid-vicios-de-refracao">
     <div class="grid-item-vicios-de-refracao miopia">
       <picture class="grid-item-vicios-de-refracao-avatar">
-          <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_miopia-extra.png">
-          <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_miopia-desk.png">
-          <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_miopia-tab.png">
-          <img id="avatar-miopia" src="<?=BASEURL?>assets/images//refrativas/vicios_de_refracao_miopia-mob.png" alt="Miopia" title="Miopia">
+          <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_miopia-extra.webp">
+          <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_miopia-desk.webp">
+          <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_miopia-tab.webp">
+          <img id="avatar-miopia" src="<?=BASEURL?>assets/images//refrativas/vicios_de_refracao_miopia-mob.webp" alt="Miopia" title="Miopia">
         </picture>
         <h3 class="grid-item-vicios-de-refracao-title">Miopia</h3>
         <p class="grid-item-vicios-de-refracao-text">Os raios luminosos são focalizados antes da retina, tornando a imagem de objetos distantes borrada; é possível enxergar objetos próximos.</p>
       </div>
       <div class="grid-item-vicios-de-refracao hipermetropia">
         <picture class="grid-item-vicios-de-refracao-avatar">
-          <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_hipermetropia-extra.png">
-          <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_hipermetropia-desk.png">
-          <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_hipermetropia-tab.png">
-          <img id="avatar-hipermetropia" src="<?=BASEURL?>assets/images//refrativas/vicios_de_refracao_hipermetropia-mob.png" alt="Hipermetropia" title="Hipermetropia">
+          <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_hipermetropia-extra.webp">
+          <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_hipermetropia-desk.webp">
+          <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_hipermetropia-tab.webp">
+          <img id="avatar-hipermetropia" src="<?=BASEURL?>assets/images//refrativas/vicios_de_refracao_hipermetropia-mob.webp" alt="Hipermetropia" title="Hipermetropia">
         </picture>
         <h3 class="grid-item-vicios-de-refracao-title">hipermetropia</h3>
         <p class="grid-item-vicios-de-refracao-text">Os raios luminosos são focalizados depois da retina tornando as imagens de objetos próximos borradas; é possível enxergar objetos distantes.</p>
       </div>
       <div class="grid-item-vicios-de-refracao astigmatismo">
         <picture class="grid-item-vicios-de-refracao-avatar">
-          <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_astigmatismo-extra.png">
-          <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_astigmatismo-desk.png">
-          <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_astigmatismo-tab.png">
-          <img id="avatar-astigmatismo" src="<?=BASEURL?>assets/images//refrativas/vicios_de_refracao_astigmatismo-mob.png" alt="Astigmatismo" title="Astigmatismo">
+          <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_astigmatismo-extra.webp">
+          <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_astigmatismo-desk.webp">
+          <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_astigmatismo-tab.webp">
+          <img id="avatar-astigmatismo" src="<?=BASEURL?>assets/images//refrativas/vicios_de_refracao_astigmatismo-mob.webp" alt="Astigmatismo" title="Astigmatismo">
         </picture>
         <h3 class="grid-item-vicios-de-refracao-title">Astigmatismo</h3>
         <p class="grid-item-vicios-de-refracao-text">Os raios luminosos convergem para pontos focais distintos comprometendo a qualidade da visão, tanto de objetos distantes quanto próximos.</p>
       </div>
       <div class="grid-item-vicios-de-refracao presbiopia">
         <picture class="grid-item-vicios-de-refracao-avatar">
-          <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_presbiopia-extra.png">
-          <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_presbiopia-desk.png">
-          <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_presbiopia-tab.png">
-          <img id="avatar-prebiopia" src="<?=BASEURL?>assets/images//refrativas/vicios_de_refracao_presbiopia-mob.png" alt="Presbiopia" title="Presbiopia">
+          <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_presbiopia-extra.webp">
+          <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_presbiopia-desk.webp">
+          <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/refrativas/vicios_de_refracao_presbiopia-tab.webp">
+          <img id="avatar-prebiopia" src="<?=BASEURL?>assets/images//refrativas/vicios_de_refracao_presbiopia-mob.webp" alt="Presbiopia" title="Presbiopia">
         </picture>
         <h3 class="grid-item-vicios-de-refracao-title">Presbiopia</h3>
         <p class="grid-item-vicios-de-refracao-text">Condição visual que afeta a capacidade de focar objetos próximos, devido à perda de elasticidade do cristalino, comum em pessoas com mais de 40 anos.</p>
@@ -135,7 +135,7 @@
       <div class="card-depoimento">
         <div class="depoimentos-frase">Sempre ouvimos de nossos pacientes que realizar a cirurgia refrativa foi a melhor decisão de suas vidas. Isso nos deixa tão emocionados, que gostaríamos de compartilhar com você.</div>
         <div class="depoimentos-video">
-          <img src="<?=BASEURL?>assets/images/depoimentos/player.png" alt="">
+          <img src="<?=BASEURL?>assets/images/depoimentos/player.webp" alt="">
         </div>
       </div>
     </div>

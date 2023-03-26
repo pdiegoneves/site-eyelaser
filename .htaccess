@@ -1,5 +1,5 @@
 RewriteEngine on
-RewriteRule !\.(js|ico|txt|gif|jpg|png|css|webp|map|ttf)$ main.php
+RewriteRule !\.(js|ico|txt|gif|jpg|png|css|webp|map|ttf|svg)$ main.php
 
 <IfModule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/plain

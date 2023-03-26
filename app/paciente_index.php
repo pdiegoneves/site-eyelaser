@@ -26,29 +26,29 @@
           <span class="semi-bold">com um</span><br>
           <span class="extra-bold">novo<br>olhar</span>
         </h2>
-        <img class="hero-banner-cc" src="<?=BASEURL?>assets/images/banner/pacientes/cc.png" alt="">
-        <img class="hero-banner-elipse" src="<?=BASEURL?>assets/images/banner/pacientes/elipse.png" alt="">
-        <img class="hero-banner-modelo" src="<?=BASEURL?>assets/images/banner/pacientes/modelo.png" alt="">
-        <img class="hero-banner-raio-branco" src="<?=BASEURL?>assets/images/banner/pacientes/raio-branco.png" alt="">
-        <img class="hero-banner-raio-roxo" src="<?=BASEURL?>assets/images/banner/pacientes/raio-roxo.png" alt="">
-        <img class="hero-banner-raio-verde" src="<?=BASEURL?>assets/images/banner/pacientes/raio-verde.png" alt="">
+        <img class="hero-banner-cc" src="<?=BASEURL?>assets/images/banner/pacientes/cc.webp" alt="">
+        <img class="hero-banner-elipse" src="<?=BASEURL?>assets/images/banner/pacientes/elipse.webp" alt="">
+        <img class="hero-banner-modelo" src="<?=BASEURL?>assets/images/banner/pacientes/modelo.webp" alt="">
+        <img class="hero-banner-raio-branco" src="<?=BASEURL?>assets/images/banner/pacientes/raio-branco.webp" alt="">
+        <img class="hero-banner-raio-roxo" src="<?=BASEURL?>assets/images/banner/pacientes/raio-roxo.webp" alt="">
+        <img class="hero-banner-raio-verde" src="<?=BASEURL?>assets/images/banner/pacientes/raio-verde.webp" alt="">
       </div>
     </section>
     <section class="dobra especialidades">
     <span class="identificador" id='especialidades'></span>
     <div class="grid-especialidades">
       <div class="grid-item-especialidade refrativa js-link-cirurgia-refrativa">
-        <img src="<?=BASEURL?>assets/images/especialidades/avatar-refrativa.png" alt="Cirurgia Refrativa" class="grid-item-especialidade-avatar">
+        <img src="<?=BASEURL?>assets/images/especialidades/avatar-refrativa.webp" alt="Cirurgia Refrativa" class="grid-item-especialidade-avatar">
         <h3 class="grid-item-especialidade-title">Cirurgias Refrativas</h3>
         <p class="grid-item-especialidade-text">São procedimentos cirúrgicos que visam a mudança da refração dos olhos, resultando na correção dos vícios de refração.</p>
       </div>
       <div class="grid-item-especialidade ceratocone">
-        <img src="<?=BASEURL?>assets/images/especialidades/avatar-ceratocone.png" alt="" class="grid-item-especialidade-avatar">
+        <img src="<?=BASEURL?>assets/images/especialidades/avatar-ceratocone.webp" alt="" class="grid-item-especialidade-avatar">
         <h3 class="grid-item-especialidade-title">Ceratocone</h3>
         <p class="grid-item-especialidade-text">Trata-se de uma doença ocular que altera a espessura e o formato da córnea, provocando uma distorção nas imagens que chegam ao olho.</p>
       </div>
       <div class="grid-item-especialidade olho-seco">
-        <img src="<?=BASEURL?>assets/images/especialidades/avatar-olho-seco.png" alt="" class="grid-item-especialidade-avatar">
+        <img src="<?=BASEURL?>assets/images/especialidades/avatar-olho-seco.webp" alt="" class="grid-item-especialidade-avatar">
         <h3 class="grid-item-especialidade-title">Síndrome do Olho Seco</h3>
         <p class="grid-item-especialidade-text">Síndrome o ressecamento do olho causado pela redução da produção ou alteração da composição das lágrimas (filme lacrimal) pelas glândulas lacrimais.</p>
       </div>
@@ -58,10 +58,10 @@
       <div class="grid-cta-midle-item text1"><p>Cansado de depender de lentes para enxergar a vida com nitidez?</p></div>
       <div class="grid-cta-midle-item image">
         <picture>
-          <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/suiterefrativa/suite_refrativa_extra.png">
-          <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/suiterefrativa/suite_refrativa_desk.png">
-          <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/suiterefrativa/suite_refrativa_tab.png">
-          <img src="<?=BASEURL?>assets/images/suiterefrativa/suite_refrativa_mob.png" alt="Suíte Refrativa">
+          <source media="(min-width: 1300px)" srcset="<?=BASEURL?>assets/images/suiterefrativa/suite_refrativa_extra.webp">
+          <source media="(min-width: 1024px)" srcset="<?=BASEURL?>assets/images/suiterefrativa/suite_refrativa_desk.webp">
+          <source media="(min-width: 768px)" srcset="<?=BASEURL?>assets/images/suiterefrativa/suite_refrativa_tab.webp">
+          <img src="<?=BASEURL?>assets/images/suiterefrativa/suite_refrativa_mob.webp" alt="Suíte Refrativa">
         </picture>
       </div>
       <div class="grid-cta-midle-item text2"><p>O EyeLaser é o único local em Alagoas que realiza cirurgia refrativa à laser.</p></div>
@@ -125,8 +125,8 @@
         <div class="depoimentos-card-video">
           <div class="player-container">
             <div class="player">
-              <img src="<?=BASEURL?>assets/images/depoimentos/avatarplayer.png" alt="" class="avatar-player">
-              <img src="<?=BASEURL?>assets/images/depoimentos/play.png" alt="" class="play-button">
+              <img src="<?=BASEURL?>assets/images/depoimentos/avatarplayer.webp" alt="" class="avatar-player">
+              <img src="<?=BASEURL?>assets/images/depoimentos/play.webp" alt="" class="play-button">
             </div>
           </div>
           <p class="depoimentos-card-nome">Fulana de Assis</p>
