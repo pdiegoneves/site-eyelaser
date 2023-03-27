@@ -177,6 +177,12 @@
     </nav>
         <div class="contatos-contatos">
         <h3 class="contatos-menu-title">Contatos</h3>
+        <div class="contacts">
+          <span class="contact-icon"><a href="#"><img src="<?=BASEURL?>assets/images/contacts/whatsapp.webp" alt="" class="contact-icon-img"></a></span>
+          <span class="contact-icon"><a href="#"><img src="<?=BASEURL?>assets/images/contacts/instagram.webp" alt="" class="contact-icon-img"></a></span>
+          <span class="contact-icon"><a href="#"><img src="<?=BASEURL?>assets/images/contacts/facebook.webp" alt="" class="contact-icon-img"></a></span>
+          <span class="contact-icon"><a href="#"><img src="<?=BASEURL?>assets/images/contacts/spotify.webp" alt="" class="contact-icon-img"></a></span>
+        </div>
 
         </div>
       </div>
