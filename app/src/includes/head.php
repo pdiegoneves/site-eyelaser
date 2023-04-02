@@ -2,7 +2,7 @@
 $mode = 'development';
 // $mode = 'production';
 if($mode === 'development'){
-    define('BASEURL', 'http://127.0.0.1/eyelaser/app/');
+    define('BASEURL', 'http://localhost/eyelaser/app/');
 } elseif($mode === 'production') {
     define('BASEURL', 'https://eyelaser.maceioti.com.br/app/');
 }

@@ -1,4 +1,4 @@
-const BASEURL = 'http://127.0.0.1/eyelaser'
+const BASEURL = 'http://localhost/eyelaser'
 
 const likCirurgiaRefrativa = document.querySelector('.js-link-cirurgia-refrativa')
 
